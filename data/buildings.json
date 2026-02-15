@@ -1,0 +1,2742 @@
+[
+  {
+    "url": "https://iedereen.overal.info/locaties/00002-albert-i/",
+    "key": "00002-albert-i",
+    "id": "00002",
+    "slug": "albert-i",
+    "title": "Albert I",
+    "description": "8660 De Panne",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/mq8DRQ5U4izBAfnX-Zm-7GlCO3g/VFBN6g../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00002-albert-i/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00003-amuzee/",
+    "key": "00003-amuzee",
+    "id": "00003",
+    "slug": "amuzee",
+    "title": "Amuzee",
+    "description": "8380 Dudzele",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/YVyUVqriCx0T_ZdCb2Jc_qG8Buo/PL51FQ../Ingang.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00003-amuzee/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00004-toope/",
+    "key": "00004-toope",
+    "id": "00004",
+    "slug": "toope",
+    "title": "Toope",
+    "description": "8400 Oostende",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/c2jY8QQ5ElkKcXyu4sjvt4lEQdM/vQdHeA../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00004-toope/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00005-la-piazza-oostende/",
+    "key": "00005-la-piazza-oostende",
+    "id": "00005",
+    "slug": "la-piazza-oostende",
+    "title": "La Piazza Oostende",
+    "description": "8400 Oostende",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/-4ZLYMnUM2jAFltRhsfyCA7_Eak/KsAdXw../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00005-la-piazza-oostende/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00006-milord/",
+    "key": "00006-milord",
+    "id": "00006",
+    "slug": "milord",
+    "title": "Milord",
+    "description": "8660 De Panne",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/BnnHSLpWcGfYqLtniba8I9XwYCA/C2dmZw../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00006-milord/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00007-mirage/",
+    "key": "00007-mirage",
+    "id": "00007",
+    "slug": "mirage",
+    "title": "Mirage",
+    "description": "8660 De Panne",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/9B5KF0DUZwFcK62GJTS5a011Vk4/ySyl_g../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00007-mirage/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00008-%E2%80%98t-werftje/",
+    "key": "00008-%E2%80%98t-werftje",
+    "id": "00008",
+    "slug": "%E2%80%98t-werftje",
+    "title": "‘t Werftje",
+    "description": "8380 Dudzele",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/7vPezIE3u8pxpgjc01KOqVxi4xk/99JRnQ../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00008-%E2%80%98t-werftje/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00009-ten-doele/",
+    "key": "00009-ten-doele",
+    "id": "00009",
+    "slug": "ten-doele",
+    "title": "Ten Doele",
+    "description": "8370 Blankenberge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/MxPyx3OIHzhm4WcdQJdzy8ZDdhA/DB-fAw../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00009-ten-doele/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00011-brasserie-de-abdijmolen/",
+    "key": "00011-brasserie-de-abdijmolen",
+    "id": "00011",
+    "slug": "brasserie-de-abdijmolen",
+    "title": "Brasserie De Abdijmolen",
+    "description": "3001 Heverlee",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/hgNcTXAyDDTxiRpUya8ZoOhM_cU/QfyJ9A../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00011-brasserie-de-abdijmolen/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00012-mie-maan/",
+    "key": "00012-mie-maan",
+    "id": "00012",
+    "slug": "mie-maan",
+    "title": "Mie Maan",
+    "description": "2230 Herselt",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/PYOECjrIn00dW14oUiM4UZD1erU/FKNnMQ../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00012-mie-maan/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00013-afspanning-den-eik/",
+    "key": "00013-afspanning-den-eik",
+    "id": "00013",
+    "slug": "afspanning-den-eik",
+    "title": "Afspanning Den Eik",
+    "description": "2431 Laakdal",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/ulC6DSMBxTIRKgy7SKXITmrVeVc/NdvVxA../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00013-afspanning-den-eik/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00014-caf%C3%A9-de-koophandel/",
+    "key": "00014-caf%C3%A9-de-koophandel",
+    "id": "00014",
+    "slug": "caf%C3%A9-de-koophandel",
+    "title": "Café De Koophandel",
+    "description": "2850 Boom",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/w5p0dOheBEzXfmOvnPpRophi-gI/bfrNMg../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00014-caf%C3%A9-de-koophandel/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00015-t-kroonrad/",
+    "key": "00015-t-kroonrad",
+    "id": "00015",
+    "slug": "t-kroonrad",
+    "title": "'t Kroonrad",
+    "description": "3294 Molenstede",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/jwoDTFJsOzBr4RMBw-DBX4-VXwQ/uifh8A../thumbnail_PHOTO-2023-11-30-15-37-43.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00015-t-kroonrad/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00016-beverbeekhuis/",
+    "key": "00016-beverbeekhuis",
+    "id": "00016",
+    "slug": "beverbeekhuis",
+    "title": "Beverbeekhuis",
+    "description": "3290 Diest",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/hDG66l3bFnQ4z1REEUCw626Mjk4/XUqNgQ../ingang.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00016-beverbeekhuis/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00017-fritshop/",
+    "key": "00017-fritshop",
+    "id": "00017",
+    "slug": "fritshop",
+    "title": "Frit-Shop",
+    "description": "3290 Diest",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/_S3ygGvoGUfWmAYUA-707aTpHB4/Tn5v-w../20231117_103839+-+kopie.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00017-fritshop/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00018-vos-restaurant/",
+    "key": "00018-vos-restaurant",
+    "id": "00018",
+    "slug": "vos-restaurant",
+    "title": "VOS restaurant",
+    "description": "9160 Lokeren",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/h13n-6mJPXX9_8VPn-ri-Oo06Wg/pPBMEg../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00018-vos-restaurant/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00019-opek/",
+    "key": "00019-opek",
+    "id": "00019",
+    "slug": "opek",
+    "title": "OPEK",
+    "description": "3000 Leuven",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/rZL5htsH1HRlxAUECAueGOm_PU8/nh8KzQ../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00019-opek/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00020-concertgebouwcaf%C3%A9/",
+    "key": "00020-concertgebouwcaf%C3%A9",
+    "id": "00020",
+    "slug": "concertgebouwcaf%C3%A9",
+    "title": "Concertgebouwcafé",
+    "description": "8000 Brugge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/Yu7Y3tCIc4XetSVWZR2e8gktLlA/AxtZNA../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00020-concertgebouwcaf%C3%A9/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00021-the-shelter/",
+    "key": "00021-the-shelter",
+    "id": "00021",
+    "slug": "the-shelter",
+    "title": "The Shelter",
+    "description": "8300 Knokke",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/A-SF6tEOt_Er8nNSYHnXWOTVXc8/FypeHQ../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00021-the-shelter/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00022-restaurant-mozartoostduinkerkenieuwpoort/",
+    "key": "00022-restaurant-mozartoostduinkerkenieuwpoort",
+    "id": "00022",
+    "slug": "restaurant-mozartoostduinkerkenieuwpoort",
+    "title": "Restaurant Mozart-Oostduinkerke-Nieuwpoort",
+    "description": "8670 Koksijde",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/qKd5jO5WDXLRTYhPU5uVyycPxkg/EdwmMA../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00022-restaurant-mozartoostduinkerkenieuwpoort/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00023-cru/",
+    "key": "00023-cru",
+    "id": "00023",
+    "slug": "cru",
+    "title": "CRU",
+    "description": "9000 Gent",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/w3DBsNIbM4FA7Tnkbo9vqKaOXfA/18hXxA../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00023-cru/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00024-paul/",
+    "key": "00024-paul",
+    "id": "00024",
+    "slug": "paul",
+    "title": "Paul",
+    "description": "9000 Gent",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/TCH4B7GQ3l9cWv6AwOtRzhd7sKI/FY8HIw../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00024-paul/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00025-kasteel-tivoli/",
+    "key": "00025-kasteel-tivoli",
+    "id": "00025",
+    "slug": "kasteel-tivoli",
+    "title": "Kasteel Tivoli",
+    "description": "2800 Mechelen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/aPviWvmdWdVfalZ9joU-sPR3S_c/9P-Psg../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00025-kasteel-tivoli/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00026-cafedraal/",
+    "key": "00026-cafedraal",
+    "id": "00026",
+    "slug": "cafedraal",
+    "title": "Cafedraal",
+    "description": "8000 Brugge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/mUKJvJxICXjjhtBWgDEqepwKgW0/dfn5ng../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00026-cafedraal/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00027-de-messinc/",
+    "key": "00027-de-messinc",
+    "id": "00027",
+    "slug": "de-messinc",
+    "title": "De Messinc",
+    "description": "2880 Bornem",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/Yug3SD-85JdfKGO5vc0NGD-cPNk/psFIgQ../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00027-de-messinc/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00028-lunch-garden-webbekom/",
+    "key": "00028-lunch-garden-webbekom",
+    "id": "00028",
+    "slug": "lunch-garden-webbekom",
+    "title": "Lunch Garden Webbekom",
+    "description": "3290 Diest",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/M0B6ZxcV6E-TpsDkmgHdTl7gZ9U/w4Pr6g../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00028-lunch-garden-webbekom/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00029-walburg-castle/",
+    "key": "00029-walburg-castle",
+    "id": "00029",
+    "slug": "walburg-castle",
+    "title": "Walburg Castle",
+    "description": "9100 Sint-Niklaas",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/4d3Y6i5LG5VYVUYkz--D1swHtDA/CkYNJA../gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00029-walburg-castle/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00030-eetcafe-dakte/",
+    "key": "00030-eetcafe-dakte",
+    "id": "00030",
+    "slug": "eetcafe-dakte",
+    "title": "Eetcafe D'Akte",
+    "description": "1750 Gaasbeek",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/huKdhkAiaSJdzQy7-Z1i4HiIOaw/A_e6KA../IMG_20231212_155313.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00030-eetcafe-dakte/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00031-de-waterskikloon/",
+    "key": "00031-de-waterskikloon",
+    "id": "00031",
+    "slug": "de-waterskikloon",
+    "title": "De Waterskikloon",
+    "description": "2250 Olen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/aW4KCKUN1K6EK1CAGLVj_JRy0X0/QkWKUA../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00031-de-waterskikloon/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00032-castor/",
+    "key": "00032-castor",
+    "id": "00032",
+    "slug": "castor",
+    "title": "Castor",
+    "description": "8791 Beveren",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/mkX6KsUIcLpp6kmY6wvpN4kIlPo/vGNI3A../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00032-castor/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00033-gourmetbar-gent/",
+    "key": "00033-gourmetbar-gent",
+    "id": "00033",
+    "slug": "gourmetbar-gent",
+    "title": "GourmetBar Gent",
+    "description": "9000 Gent",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/KW3PbLAdY5X59XmglJPRhQqUxV4/Ho4mHA../gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00033-gourmetbar-gent/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00034-janssens-rita/",
+    "key": "00034-janssens-rita",
+    "id": "00034",
+    "slug": "janssens-rita",
+    "title": "Janssens Rita",
+    "description": "3202 Rillaar",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/r59PztSHHO0gxXnnu1QJVFmpdnU/BLz75A../gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00034-janssens-rita/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00035-brasserie-de-werf/",
+    "key": "00035-brasserie-de-werf",
+    "id": "00035",
+    "slug": "brasserie-de-werf",
+    "title": "Brasserie De Werf",
+    "description": "9140 Temse",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/UUiWYAP7l4oMf78IqnflrPWQfh8/SB_ung../gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00035-brasserie-de-werf/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00036-brouwerij-de-coureur--microbrouwerij-taproom/",
+    "key": "00036-brouwerij-de-coureur--microbrouwerij-taproom",
+    "id": "00036",
+    "slug": "brouwerij-de-coureur--microbrouwerij-taproom",
+    "title": "brouwerij de Coureur - microbrouwerij + taproom",
+    "description": "3010 Kessel Lo",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/cUVZPOj-5S3F7EKf4iwE49xJKYs/lnNPXg../gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00036-brouwerij-de-coureur--microbrouwerij-taproom/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00037-spaans-dak/",
+    "key": "00037-spaans-dak",
+    "id": "00037",
+    "slug": "spaans-dak",
+    "title": "Spaans Dak",
+    "description": "3050 Oud-Heverlee",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/ULRo1jfxeTkStSMRrwX4XA-_I-I/IleFCQ../gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00037-spaans-dak/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00038-scarphout-royal-yacht-club/",
+    "key": "00038-scarphout-royal-yacht-club",
+    "id": "00038",
+    "slug": "scarphout-royal-yacht-club",
+    "title": "Scarphout Royal Yacht Club",
+    "description": "8370 Blankenberge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/uRI8_T3VuzuLeQToBoZwbF0MiVg/XUI16Q../gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00038-scarphout-royal-yacht-club/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00039-brasserie-paname/",
+    "key": "00039-brasserie-paname",
+    "id": "00039",
+    "slug": "brasserie-paname",
+    "title": "Brasserie Paname",
+    "description": "8420 De Haan",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/vJJ7K-0BPD8WkJGFB7R1laWHmg8/BJQ7KA../gevel+bis.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00039-brasserie-paname/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00040-duvelorium-belgian-beer-bar/",
+    "key": "00040-duvelorium-belgian-beer-bar",
+    "id": "00040",
+    "slug": "duvelorium-belgian-beer-bar",
+    "title": "Duvelorium Belgian Beer Bar",
+    "description": "8000 Brugge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/Wj0E94WPB0r2RlF-ovmZaZVljvk/mFoDlg../gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00040-duvelorium-belgian-beer-bar/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00041-de-circus-brouwerij/",
+    "key": "00041-de-circus-brouwerij",
+    "id": "00041",
+    "slug": "de-circus-brouwerij",
+    "title": "De Circus Brouwerij",
+    "description": "8550 Zwevegem",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/U2MKP-S18HiVXQhCbb5QQ7njOxM/kHidig../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00041-de-circus-brouwerij/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00042-moervaarthoeve/",
+    "key": "00042-moervaarthoeve",
+    "id": "00042",
+    "slug": "moervaarthoeve",
+    "title": "Moervaarthoeve",
+    "description": "9185 Wachtebeke",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/wiJgeR67A7pVmCK1NpT7toFnR2s/sdEoAw../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00042-moervaarthoeve/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00043-hill-60-restaurant/",
+    "key": "00043-hill-60-restaurant",
+    "id": "00043",
+    "slug": "hill-60-restaurant",
+    "title": "Hill 60 Restaurant",
+    "description": "8902 Hollebeke",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/K7ycMfNd-VTyJKkhZ1edPSRBwao/ny4W9Q../gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00043-hill-60-restaurant/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00044-caf%C3%A9-cultuur/",
+    "key": "00044-caf%C3%A9-cultuur",
+    "id": "00044",
+    "slug": "caf%C3%A9-cultuur",
+    "title": "Café Cultuur",
+    "description": "8300 Knokke",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/xE8MldVYb3I--BirVpEJi2NSbz0/Ra-RzQ../gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00044-caf%C3%A9-cultuur/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00045-bistrant-villa-nova/",
+    "key": "00045-bistrant-villa-nova",
+    "id": "00045",
+    "slug": "bistrant-villa-nova",
+    "title": "Bistrant Villa Nova",
+    "description": "8430 Middelkerke",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/9iOwIIFSAKyKb9q6kcGFXkIGjmM/rwuvPA../gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00045-bistrant-villa-nova/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00046-bar-caprice/",
+    "key": "00046-bar-caprice",
+    "id": "00046",
+    "slug": "bar-caprice",
+    "title": "Bar Caprice",
+    "description": "8620 Nieuwpoort",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/WPYTJSKF31LV8xm0NU2eiFgCdsw/jkluuw../gevel+bis.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00046-bar-caprice/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00047-cappuccino/",
+    "key": "00047-cappuccino",
+    "id": "00047",
+    "slug": "cappuccino",
+    "title": "Cappuccino",
+    "description": "8400 Oostende",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/-qJJH4OJl_KhHbSFZhYiPTUWr10/SDvdZA../gevel+bis.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00047-cappuccino/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00049-de-stenen-linde/",
+    "key": "00049-de-stenen-linde",
+    "id": "00049",
+    "slug": "de-stenen-linde",
+    "title": "De Stenen Linde",
+    "description": "9260 Wichelen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/OP8GtMOe_L85XHB1Tlecw3GUwn0/8iRvQQ../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00049-de-stenen-linde/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00050-brasserie-vrededaal/",
+    "key": "00050-brasserie-vrededaal",
+    "id": "00050",
+    "slug": "brasserie-vrededaal",
+    "title": "Brasserie Vrededaal",
+    "description": "2870 Puurs-Sint-Amands",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/Y0JVx1zevkV9J4-CZmJ8dMrf3Js/iizc6A../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00050-brasserie-vrededaal/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00051-dekol/",
+    "key": "00051-dekol",
+    "id": "00051",
+    "slug": "dekol",
+    "title": "DEKOL",
+    "description": "2870 Puurs-Sint-Amands",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/9-FvGb1dvAghaG8nrjCceYS6070/AP1N3g../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00051-dekol/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00052-den-amandus/",
+    "key": "00052-den-amandus",
+    "id": "00052",
+    "slug": "den-amandus",
+    "title": "Den Amandus",
+    "description": "2890 Puurs-Sint-Amands",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/CVs-qxNqdHPgJgs2hv30K96JsOU/o5H1KQ../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00052-den-amandus/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00053-the-new-four-seasons/",
+    "key": "00053-the-new-four-seasons",
+    "id": "00053",
+    "slug": "the-new-four-seasons",
+    "title": "The New Four Seasons",
+    "description": "9185 Wachtebeke",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/7K8eFHjSPje9yLuRdIYSItKv37Y/4L8mjQ../Gevel2.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00053-the-new-four-seasons/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00054-eetcaf%C3%A9-%E2%80%98t-veer/",
+    "key": "00054-eetcaf%C3%A9-%E2%80%98t-veer",
+    "id": "00054",
+    "slug": "eetcaf%C3%A9-%E2%80%98t-veer",
+    "title": "Eetcafé ‘t Veer",
+    "description": "9140 Temse",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/iAcYDTu-hCn2wJh38rxti4Ih5SE/w4cdyw../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00054-eetcaf%C3%A9-%E2%80%98t-veer/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00055-poseidon/",
+    "key": "00055-poseidon",
+    "id": "00055",
+    "slug": "poseidon",
+    "title": "Poseidon",
+    "description": "9290 Berlare",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/5JPj9jnSlwhNa7CEUto89UcbLVI/H1c_8g../Gevel2.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00055-poseidon/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00057-brasserie-den-dries/",
+    "key": "00057-brasserie-den-dries",
+    "id": "00057",
+    "slug": "brasserie-den-dries",
+    "title": "Brasserie Den Dries",
+    "description": "9255 Buggenhout",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/nID-3uLpAml2sAgejEdQWOYKDAI/Je8QVQ../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00057-brasserie-den-dries/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00058-buffet&grill-%22-promenade%22-selfbuffet./",
+    "key": "00058-buffet&grill-%22-promenade%22-selfbuffet.",
+    "id": "00058",
+    "slug": "buffet&grill-%22-promenade%22-selfbuffet.",
+    "title": "Buffet&grill \" Promenade\" Self-buffet.",
+    "description": "8370 Blankenberge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/MRsk3vEHZCrsU5qU0WzCTSc_GXE/yqlzsQ../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00058-buffet&grill-%22-promenade%22-selfbuffet./"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00059-restaurant-de-kombuis/",
+    "key": "00059-restaurant-de-kombuis",
+    "id": "00059",
+    "slug": "restaurant-de-kombuis",
+    "title": "Restaurant De Kombuis",
+    "description": "8380 Dudzele",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/7YL-TnXmC2J_6N7DcK_mZS2YtOk/o0cHtQ../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00059-restaurant-de-kombuis/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00060-rooftoprestaurant-njord/",
+    "key": "00060-rooftoprestaurant-njord",
+    "id": "00060",
+    "slug": "rooftoprestaurant-njord",
+    "title": "Rooftoprestaurant Njord",
+    "description": "8380 Dudzele",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/eHSUeTqdzKwDrgNoy-5VEghV0FE/bDZCag../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00060-rooftoprestaurant-njord/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00061-vakantiedomein-ter-helme/",
+    "key": "00061-vakantiedomein-ter-helme",
+    "id": "00061",
+    "slug": "vakantiedomein-ter-helme",
+    "title": "Vakantiedomein Ter Helme",
+    "description": "8670 Oostduinkerke",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/nHob3U0EwuNvV6meFndZQI-gjXE/nOscog../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00061-vakantiedomein-ter-helme/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00063-floreal-blankenberge/",
+    "key": "00063-floreal-blankenberge",
+    "id": "00063",
+    "slug": "floreal-blankenberge",
+    "title": "Floreal Blankenberge",
+    "description": "8370 Blankenberge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/pMtLjZ7XlSH1OXmsOTxP9xeqsC0/slFkSg../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00063-floreal-blankenberge/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00064-brasserie-de-mol/",
+    "key": "00064-brasserie-de-mol",
+    "id": "00064",
+    "slug": "brasserie-de-mol",
+    "title": "Brasserie De Mol",
+    "description": "8660 De Panne",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/kRHUPi2cOGf5zqa2eC6YTsgJg2Q/5iMCyw../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00064-brasserie-de-mol/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00065-dbar/",
+    "key": "00065-dbar",
+    "id": "00065",
+    "slug": "dbar",
+    "title": "Dbar",
+    "description": "8660 De Panne",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/KnYnJdoRLnR-bkNfmJEvuLsXPy4/FjhMRA../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00065-dbar/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00066-hotel-tea-room-conceptstore-aan-zee/",
+    "key": "00066-hotel-tea-room-conceptstore-aan-zee",
+    "id": "00066",
+    "slug": "hotel-tea-room-conceptstore-aan-zee",
+    "title": "Hotel Tea Room Conceptstore aan Zee",
+    "description": "8660 De Panne",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/iDb3VD5htNphF2c4TW_uXqhmKow/IevdyA../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00066-hotel-tea-room-conceptstore-aan-zee/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00067-parkhotel/",
+    "key": "00067-parkhotel",
+    "id": "00067",
+    "slug": "parkhotel",
+    "title": "Parkhotel",
+    "description": "8660 De Panne",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/x9oHAeyLaqwiI9O-LaV7JFF-FII/oZBaIQ../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00067-parkhotel/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00068-den-heerd/",
+    "key": "00068-den-heerd",
+    "id": "00068",
+    "slug": "den-heerd",
+    "title": "Den Heerd",
+    "description": "8000 Brugge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/jbN6t03Nn4_6h5LQpq6T_0aZlBo/VM2ZFA../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00068-den-heerd/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00069-de-verbeelding--apero-&-tapas/",
+    "key": "00069-de-verbeelding--apero-&-tapas",
+    "id": "00069",
+    "slug": "de-verbeelding--apero-&-tapas",
+    "title": "De Verbeelding - Apero & Tapas",
+    "description": "8000 Brugge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/b8k1_Q8wSyOC6twYwJNBhpToyhQ/k0p9Yg../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00069-de-verbeelding--apero-&-tapas/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00070-krookcaf%C3%A9/",
+    "key": "00070-krookcaf%C3%A9",
+    "id": "00070",
+    "slug": "krookcaf%C3%A9",
+    "title": "Krookcafé",
+    "description": "9000 Gent",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/2vNS1E8p-kPYuE4KSKG2-i9DWTY/Yp8haw../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00070-krookcaf%C3%A9/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00071-ntgent/",
+    "key": "00071-ntgent",
+    "id": "00071",
+    "slug": "ntgent",
+    "title": "NTGent",
+    "description": "9000 Gent",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/EWyjtPeMgEOSnywIxpPMchMghoo/L1iEFg../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00071-ntgent/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00072-brassi-casino-restaurant/",
+    "key": "00072-brassi-casino-restaurant",
+    "id": "00072",
+    "slug": "brassi-casino-restaurant",
+    "title": "Brassi Casino Restaurant",
+    "description": "8400 Oostende",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/dqLG-iebilIQOwdvfYTAz1MU6x0/QEp9Hg../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00072-brassi-casino-restaurant/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00073-cultuurcafe-de-grote-post/",
+    "key": "00073-cultuurcafe-de-grote-post",
+    "id": "00073",
+    "slug": "cultuurcafe-de-grote-post",
+    "title": "Cultuurcafe De Grote Post",
+    "description": "8400 Oostende",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/qzw0mTueUbBFXUq7w35l6NMsPoo/-MN8Dg../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00073-cultuurcafe-de-grote-post/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00074-sandeshoved/",
+    "key": "00074-sandeshoved",
+    "id": "00074",
+    "slug": "sandeshoved",
+    "title": "Sandeshoved",
+    "description": "8620 Nieuwpoort",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/mX6ytxqq8bEu5ezTXwxKdcfNqHY/iqFvBQ../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00074-sandeshoved/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00075-de-haven/",
+    "key": "00075-de-haven",
+    "id": "00075",
+    "slug": "de-haven",
+    "title": "De Haven",
+    "description": "8620 Nieuwpoort",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/cREANRZWGHDuzKP10fMLEMR8hBc/0YfvKA../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00075-de-haven/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00076-brasserie-carrousel/",
+    "key": "00076-brasserie-carrousel",
+    "id": "00076",
+    "slug": "brasserie-carrousel",
+    "title": "Brasserie Carrousel",
+    "description": "8620 Nieuwpoort",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/heUPAfILIL7Nqd-LIXn1SGMz1fo/cEs4pA../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00076-brasserie-carrousel/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00078-kompas-camping/",
+    "key": "00078-kompas-camping",
+    "id": "00078",
+    "slug": "kompas-camping",
+    "title": "Kompas Camping",
+    "description": "8620 Nieuwpoort",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/nEU9iBp1rf2bymB8kkElsNQ_xkk/bZ_s9A../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00078-kompas-camping/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00079-galjoen-bistroh-&-restoh/",
+    "key": "00079-galjoen-bistroh-&-restoh",
+    "id": "00079",
+    "slug": "galjoen-bistroh-&-restoh",
+    "title": "Galjoen Bistr'oh & Rest'oh",
+    "description": "8620 Nieuwpoort",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/zhkcEG5YlTA4KdCOu2Q-8d3b3jw/Q4jnkQ../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00079-galjoen-bistroh-&-restoh/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00080-de-normandie/",
+    "key": "00080-de-normandie",
+    "id": "00080",
+    "slug": "de-normandie",
+    "title": "De Normandie",
+    "description": "8670 Koksijde",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/Iz8IHQNdIvU0c82CHnM3s4MpdE4/jrQrcQ../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00080-de-normandie/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00084-caf%C3%A9-des-sports/",
+    "key": "00084-caf%C3%A9-des-sports",
+    "id": "00084",
+    "slug": "caf%C3%A9-des-sports",
+    "title": "Café Des Sports",
+    "description": "8301 Heist-aan-Zee",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/1Sw4ipYsfAtDiq9w3Xfu7jQz7jg/0twZPQ../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00084-caf%C3%A9-des-sports/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00085-het-koetshuys-torhout-%7C-tafelgrill--fondue--tapas--%C3%A0-la-carte/",
+    "key": "00085-het-koetshuys-torhout-%7C-tafelgrill--fondue--tapas--%C3%A0-la-carte",
+    "id": "00085",
+    "slug": "het-koetshuys-torhout-%7C-tafelgrill--fondue--tapas--%C3%A0-la-carte",
+    "title": "Het Koetshuys Torhout | Tafelgrill - Fondue - Tapas - À la carte",
+    "description": "8820 Torhout",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/LDVG1h3E4CNjVXoW_8-MMYxrP1o/sp5UJA../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00085-het-koetshuys-torhout-%7C-tafelgrill--fondue--tapas--%C3%A0-la-carte/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00088-cindy-&-sandy/",
+    "key": "00088-cindy-&-sandy",
+    "id": "00088",
+    "slug": "cindy-&-sandy",
+    "title": "Cindy & Sandy",
+    "description": "8420 De Haan",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/M4R5ygbfybzsVtJ7MPAFJnOncV4/H1elaw../gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00088-cindy-&-sandy/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00090-de-musette,-boom/",
+    "key": "00090-de-musette,-boom",
+    "id": "00090",
+    "slug": "de-musette,-boom",
+    "title": "De Musette, Boom",
+    "description": "2850 Boom",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/0jB7-lFMQwZthGFnt3FBtLz0mj0/eWd0-A../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00090-de-musette,-boom/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00091-domein-de-putten/",
+    "key": "00091-domein-de-putten",
+    "id": "00091",
+    "slug": "domein-de-putten",
+    "title": "Domein de Putten",
+    "description": "2460 Kasterlee",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/CPmJZfmC1XnDIWflh43EiFVpPI4/sKI1bA../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00091-domein-de-putten/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00092-mythos/",
+    "key": "00092-mythos",
+    "id": "00092",
+    "slug": "mythos",
+    "title": "Mythos",
+    "description": "9080 Lochristi",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/YHauKkXFejCzlUfgWUNzJiXVJ-U/My3NjQ../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00092-mythos/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00093-dartagnan/",
+    "key": "00093-dartagnan",
+    "id": "00093",
+    "slug": "dartagnan",
+    "title": "D'Artagnan",
+    "description": "3000 Leuven",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/D3JwG3qW5RbPnIlz7OTFkfpLD94/-F-zMw../Gevel.jpeg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00093-dartagnan/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00094-vrijbroekhof/",
+    "key": "00094-vrijbroekhof",
+    "id": "00094",
+    "slug": "vrijbroekhof",
+    "title": "Vrijbroekhof",
+    "description": "2800 Mechelen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/En1l8rPAO2Yp2u-gn9-1WLrkcX0/UUiLZA../gebbouw+brasserie+Vrijbroek.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00094-vrijbroekhof/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00096-scaldiana/",
+    "key": "00096-scaldiana",
+    "id": "00096",
+    "slug": "scaldiana",
+    "title": "Scaldiana",
+    "description": "9150 Kruibeke",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/km7WnF0HAzfjmq_7bk8NQKgvL_Y/QPeKow../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00096-scaldiana/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00097-gildenhuis/",
+    "key": "00097-gildenhuis",
+    "id": "00097",
+    "slug": "gildenhuis",
+    "title": "Gildenhuis",
+    "description": "9150 Kruibeke",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/8biPXLua9fQBtpjHV_m7s5r1sb8/F8V6AA../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00097-gildenhuis/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00098-cultuurcaf%C3%A9-bornem/",
+    "key": "00098-cultuurcaf%C3%A9-bornem",
+    "id": "00098",
+    "slug": "cultuurcaf%C3%A9-bornem",
+    "title": "Cultuurcafé Bornem",
+    "description": "2880 Bornem",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/cM_LeAJjkaKTypJBQjdIimiRMNk/wXNnBA../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00098-cultuurcaf%C3%A9-bornem/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00099-de-zilverreiger-vzw-streek-en-vlechtmuseum-van-kleinbrabant/",
+    "key": "00099-de-zilverreiger-vzw-streek-en-vlechtmuseum-van-kleinbrabant",
+    "id": "00099",
+    "slug": "de-zilverreiger-vzw-streek-en-vlechtmuseum-van-kleinbrabant",
+    "title": "De Zilverreiger vzw Streek- en Vlechtmuseum van Klein-Brabant",
+    "description": "2880 Bornem",
+    "image": null,
+    "canonical": "https://iedereen.overal.info/locaties/00099-de-zilverreiger-vzw-streek-en-vlechtmuseum-van-kleinbrabant/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00100-jam/",
+    "key": "00100-jam",
+    "id": "00100",
+    "slug": "jam",
+    "title": "Jam",
+    "description": "2880 Bornem",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/sz0gcED3iAzWJRUhkadHblDVNbY/-uI12A../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00100-jam/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00101-bris%C3%A9e/",
+    "key": "00101-bris%C3%A9e",
+    "id": "00101",
+    "slug": "bris%C3%A9e",
+    "title": "Brisée",
+    "description": "9130 Beveren",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/-Skh9LUNMOFvGxoum81hvsbvmmY/xrr7xA../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00101-bris%C3%A9e/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00102-de-ponthoeve/",
+    "key": "00102-de-ponthoeve",
+    "id": "00102",
+    "slug": "de-ponthoeve",
+    "title": "De Ponthoeve",
+    "description": "9840 De Pinte",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/AcyZJCme4zvIHxMerL8JX09McLY/Y3YzSQ../DJI_0080.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00102-de-ponthoeve/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00103-huize-geertrui/",
+    "key": "00103-huize-geertrui",
+    "id": "00103",
+    "slug": "huize-geertrui",
+    "title": "Huize Geertrui",
+    "description": "9200 Dendermonde",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/CeLjsanhkbDdYedXOEEbArS98F4/aFk7Gw../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00103-huize-geertrui/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00106-de-geluksmakerij/",
+    "key": "00106-de-geluksmakerij",
+    "id": "00106",
+    "slug": "de-geluksmakerij",
+    "title": "De GelukSmakerij",
+    "description": "3650 Dilsen-Stokkem",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/h4D3Hmt4duJkf-Ub_oqedkxwYyw/ujAfBg../IMG_5806.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00106-de-geluksmakerij/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00114-bistro-het-boekenhof/",
+    "key": "00114-bistro-het-boekenhof",
+    "id": "00114",
+    "slug": "bistro-het-boekenhof",
+    "title": "Bistro Het Boekenhof",
+    "description": "2845 Niel",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/OWyMDawoBr9bNPtkhkTulTvvRXc/mu5vaQ../gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00114-bistro-het-boekenhof/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00116-prullenbos/",
+    "key": "00116-prullenbos",
+    "id": "00116",
+    "slug": "prullenbos",
+    "title": "Prullenbos",
+    "description": "9230 Wetteren",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/EGC4j3dc3_dPB70T_XZFs9Gcryc/QJuHvA../IMG_6545.jpeg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00116-prullenbos/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00121-de-frietboetiek-oudsbergen--wijshagen/",
+    "key": "00121-de-frietboetiek-oudsbergen--wijshagen",
+    "id": "00121",
+    "slug": "de-frietboetiek-oudsbergen--wijshagen",
+    "title": "De Frietboetiek Oudsbergen - Wijshagen",
+    "description": "3670 Oudsbergen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/ZwwkBxtCFlGrt3wjGAM5c3n4ImA/-HtUtQ../IMG_1536.jpeg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00121-de-frietboetiek-oudsbergen--wijshagen/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00122-t-pure-genot/",
+    "key": "00122-t-pure-genot",
+    "id": "00122",
+    "slug": "t-pure-genot",
+    "title": "'t pure genot",
+    "description": "3650 Dilsen-Stokkem",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/kaIAo93ZMbg9-JMYeVzYAgraBlE/kRCGFg../Voorgevel+B%26B+met+schuine+helling.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00122-t-pure-genot/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00127-cultuurcaf%C3%A9-merelbeke/",
+    "key": "00127-cultuurcaf%C3%A9-merelbeke",
+    "id": "00127",
+    "slug": "cultuurcaf%C3%A9-merelbeke",
+    "title": "Cultuurcafé Merelbeke",
+    "description": "9820 Merelbeke",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/FJxnDpm6NgtvFTGlkXL0y0miaUA/pj0ANg../image.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00127-cultuurcaf%C3%A9-merelbeke/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00141-de-bottelarij/",
+    "key": "00141-de-bottelarij",
+    "id": "00141",
+    "slug": "de-bottelarij",
+    "title": "de Bottelarij",
+    "description": "3830 Wellen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/MvwOauof_wAhtlsl3bzBv2stXmE/1yozsw../IMG_4559.JPEG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00141-de-bottelarij/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00148-frituur-meander/",
+    "key": "00148-frituur-meander",
+    "id": "00148",
+    "slug": "frituur-meander",
+    "title": "Frituur Meander",
+    "description": "3040 Huldenberg",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/XSnECK3XXfdyK8O-gEZICiKYI3I/pDitjQ../foto+zaak+geheel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00148-frituur-meander/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00152-byttebier--la-cantine/",
+    "key": "00152-byttebier--la-cantine",
+    "id": "00152",
+    "slug": "byttebier--la-cantine",
+    "title": "Byttebier - La Cantine",
+    "description": "8500 Kortrijk",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/vwK8Or26bAA1PrsCDcppTjDBmdI/o7A8dA../Lacantine-40.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00152-byttebier--la-cantine/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00153-sprezza/",
+    "key": "00153-sprezza",
+    "id": "00153",
+    "slug": "sprezza",
+    "title": "Sprezza",
+    "description": "8500 Kortrijk",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/6ycGVwxiVAqWF4KXgcTWIkkRLRk/MKCzFA../sprezza2.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00153-sprezza/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00158-salie/",
+    "key": "00158-salie",
+    "id": "00158",
+    "slug": "salie",
+    "title": "Salie",
+    "description": "8500 Kortrijk",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/jOH262m7L_8hiYwwpZ0CBo-sRqk/8wZcLQ../image0+%281%29.jpeg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00158-salie/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00160-vooruit/",
+    "key": "00160-vooruit",
+    "id": "00160",
+    "slug": "vooruit",
+    "title": "Vooruit",
+    "description": "9000 Gent",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/KLW4abj_rqVUJxOLOV_WGv8l5Ec/lTFwkw../Cafe+buiten.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00160-vooruit/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00163-jazz/",
+    "key": "00163-jazz",
+    "id": "00163",
+    "slug": "jazz",
+    "title": "JAZZ",
+    "description": "8500 Kortrijk",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/uuY2h3Lmk54nwr2RpmkyteFtF1k/P90RIg../IMG_20240314_084754+%281%29.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00163-jazz/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00165-irish-marys/",
+    "key": "00165-irish-marys",
+    "id": "00165",
+    "slug": "irish-marys",
+    "title": "Irish Mary's",
+    "description": "8500 Kortrijk",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/x5ezSQ8XWehy1bfLSi3miPnNobc/Z1BmQw../IMG_0985+Medium+2.jpeg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00165-irish-marys/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00166-oxfam-wereldwinkel/",
+    "key": "00166-oxfam-wereldwinkel",
+    "id": "00166",
+    "slug": "oxfam-wereldwinkel",
+    "title": "Oxfam Wereldwinkel",
+    "description": "8500 Kortrijk",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/ZOzE8SxkoSIoWdALGnxFrbBlUfc/A2g1hA../WIN_20231208_14_00_27_Pro.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00166-oxfam-wereldwinkel/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00168-brasserie-aspermans/",
+    "key": "00168-brasserie-aspermans",
+    "id": "00168",
+    "slug": "brasserie-aspermans",
+    "title": "Brasserie Aspermans",
+    "description": "3630 Maasmechelen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/oUrtjNVijukprmzQH5XwxYPPHFU/_5d-Pw../Afbeelding+van+WhatsApp+op+2025-09-04+om+14.54.01_696d5627.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00168-brasserie-aspermans/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00176-de-ijsbeer/",
+    "key": "00176-de-ijsbeer",
+    "id": "00176",
+    "slug": "de-ijsbeer",
+    "title": "DE IJSBEER",
+    "description": "8000 Brugge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/UGXWzzUhJRcJdcgSBoGxJ6bx9I8/Q3efTw../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00176-de-ijsbeer/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00177-moeder-lambik/",
+    "key": "00177-moeder-lambik",
+    "id": "00177",
+    "slug": "moeder-lambik",
+    "title": "Moeder Lambik",
+    "description": "8660 De Panne",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/stfqXSP-54jv09abSzN7cwdOG1A/YQ_Byg../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00177-moeder-lambik/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00178-bardot/",
+    "key": "00178-bardot",
+    "id": "00178",
+    "slug": "bardot",
+    "title": "Bardot",
+    "description": "3000 Leuven",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/61sbOdW8FPrn7jgeQf6cYC-D0kk/fVETow../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00178-bardot/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00179-quetzal-chocolate-bar/",
+    "key": "00179-quetzal-chocolate-bar",
+    "id": "00179",
+    "slug": "quetzal-chocolate-bar",
+    "title": "Quetzal chocolate bar",
+    "description": "3000 Leuven",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/r9zHa8p-WwPFYTLThP4dq5rliJE/PosBMA../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00179-quetzal-chocolate-bar/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00184-batteliek/",
+    "key": "00184-batteliek",
+    "id": "00184",
+    "slug": "batteliek",
+    "title": "Batteliek",
+    "description": "2800 Mechelen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/KIPtao4fta48vGffI3TOEZmfAbk/Ry0YXQ../20260130_132700.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00184-batteliek/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00185-meerdaalhof/",
+    "key": "00185-meerdaalhof",
+    "id": "00185",
+    "slug": "meerdaalhof",
+    "title": "Meerdaalhof",
+    "description": "3050 Oud-Heverlee",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/ue6QGk4Y9ZLcH-EUN431gdOIFZY/ceR8Bg../IMG_0003.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00185-meerdaalhof/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00191-silkes-zoete-zonde/",
+    "key": "00191-silkes-zoete-zonde",
+    "id": "00191",
+    "slug": "silkes-zoete-zonde",
+    "title": "Silkes zoete zonde",
+    "description": "8500 Kortrijk",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/SVtx3wG1e1IKO7M-lDsPBMFOjQs/iStvew../2A41AAB5-59A3-4ADA-9B1D-ED6AD0DDBBCA.jpeg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00191-silkes-zoete-zonde/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00192-noordoever/",
+    "key": "00192-noordoever",
+    "id": "00192",
+    "slug": "noordoever",
+    "title": "Noordoever",
+    "description": "3000 Leuven",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/9hUdEb7LgVcU5QvyhcsOSqB4lFY/hkUjww../IMG_5347.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00192-noordoever/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00193-hal-5/",
+    "key": "00193-hal-5",
+    "id": "00193",
+    "slug": "hal-5",
+    "title": "HAL 5",
+    "description": "3010 Kessel Lo",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/Hwbf2tI6iO3uy3RfUWcoR5EJkmY/XN7ZQQ../IMG_8236.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00193-hal-5/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00194-bier-central-gent/",
+    "key": "00194-bier-central-gent",
+    "id": "00194",
+    "slug": "bier-central-gent",
+    "title": "Bier Central Gent",
+    "description": "9000 Gent",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/CiT8Nv5xS8NRyQBpMadw1KT0SxI/ARp0Mw../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00194-bier-central-gent/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00195-godot/",
+    "key": "00195-godot",
+    "id": "00195",
+    "slug": "godot",
+    "title": "Godot",
+    "description": "9000 Gent",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/IXhqmiOeFIStOb2LVjSB4D0Mzik/cK4AtQ../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00195-godot/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00196-maximiliaan/",
+    "key": "00196-maximiliaan",
+    "id": "00196",
+    "slug": "maximiliaan",
+    "title": "Maximiliaan",
+    "description": "9000 Gent",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/W3mCSHPGPi16fOz2nEfOV-5xW1c/9LzvQg../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00196-maximiliaan/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00197-mcdonalds/",
+    "key": "00197-mcdonalds",
+    "id": "00197",
+    "slug": "mcdonalds",
+    "title": "McDonald's",
+    "description": "9000 Gent",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/eILHpLpB8zDf0EpQM1zRi8vbzis/zVuoCw../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00197-mcdonalds/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00198-uilenspiegel/",
+    "key": "00198-uilenspiegel",
+    "id": "00198",
+    "slug": "uilenspiegel",
+    "title": "Uilenspiegel",
+    "description": "9000 Gent",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/veEcSwr0CJwaHTHj9ehW7q0Gh4Y/xvhNDA../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00198-uilenspiegel/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00199-starbucks/",
+    "key": "00199-starbucks",
+    "id": "00199",
+    "slug": "starbucks",
+    "title": "Starbucks",
+    "description": "9000 Gent",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/qmJKFUgo_aaun-ENqKl-6jX46Yo/vO0nCQ../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00199-starbucks/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00200-colosseo/",
+    "key": "00200-colosseo",
+    "id": "00200",
+    "slug": "colosseo",
+    "title": "Colosseo",
+    "description": "8660 De Panne",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/ytYHepOb_8nVybODyrE5aXXw9z0/XNpN8w../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00200-colosseo/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00202-tc-larmorial/",
+    "key": "00202-tc-larmorial",
+    "id": "00202",
+    "slug": "tc-larmorial",
+    "title": "TC L'Armorial",
+    "description": "8660 De Panne",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/yz34L-Jbq4oaOu2fmvapmPb8ehA/FlGoNg../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00202-tc-larmorial/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00203-paepehof-kinderboerderij-eetkafee-bakatelier/",
+    "key": "00203-paepehof-kinderboerderij-eetkafee-bakatelier",
+    "id": "00203",
+    "slug": "paepehof-kinderboerderij-eetkafee-bakatelier",
+    "title": "Paepehof Kinderboerderij EEtkafee Bakatelier",
+    "description": "8660 De Panne",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/ZB5P2-C7TqiXKcz4LOvXufuYo8k/1kXZgw../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00203-paepehof-kinderboerderij-eetkafee-bakatelier/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00204-tearoom-riviera/",
+    "key": "00204-tearoom-riviera",
+    "id": "00204",
+    "slug": "tearoom-riviera",
+    "title": "Tearoom Riviera",
+    "description": "8430 Middelkerke",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/GC-ECa3casHgmMWHWgyO29hdclk/yco0rA../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00204-tearoom-riviera/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00205-project-k/",
+    "key": "00205-project-k",
+    "id": "00205",
+    "slug": "project-k",
+    "title": "Project K",
+    "description": "8434 Lombardsijde",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/JUVDONIDEZlz_SD_walTqxKS0Uw/EcJ7gg../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00205-project-k/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00206-de-smidse/",
+    "key": "00206-de-smidse",
+    "id": "00206",
+    "slug": "de-smidse",
+    "title": "De Smidse",
+    "description": "8430 Middelkerke",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/DEoxUWXy_fSkcA_QWKHpDZVtu30/X_LYmQ../Gevel1.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00206-de-smidse/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00209-westhinder/",
+    "key": "00209-westhinder",
+    "id": "00209",
+    "slug": "westhinder",
+    "title": "Westhinder",
+    "description": "8420 De Haan",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/sRth3jhn7MuurMQbZ3i8cmEEX4k/lDTL0Q../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00209-westhinder/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00210-wielrijdersrust-het-dorstige-hart/",
+    "key": "00210-wielrijdersrust-het-dorstige-hart",
+    "id": "00210",
+    "slug": "wielrijdersrust-het-dorstige-hart",
+    "title": "Wielrijdersrust Het Dorstige Hart",
+    "description": "8670 Koksijde",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/aoI7ke49sMdjpoI6_PMG811jz_c/f6xGtw../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00210-wielrijdersrust-het-dorstige-hart/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00211-resto-real/",
+    "key": "00211-resto-real",
+    "id": "00211",
+    "slug": "resto-real",
+    "title": "Resto Real",
+    "description": "8670 Koksijde",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/00nk8m18f4jCYJnkts2y44VKQis/C5TOBw../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00211-resto-real/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00212-brasserie-la-terasse/",
+    "key": "00212-brasserie-la-terasse",
+    "id": "00212",
+    "slug": "brasserie-la-terasse",
+    "title": "Brasserie la terasse",
+    "description": "8670 Koksijde",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/keLWznNvGPBtlA6HkdgCwC8YXMA/VKaw0A../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00212-brasserie-la-terasse/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00213-memlinc-palace-hotel/",
+    "key": "00213-memlinc-palace-hotel",
+    "id": "00213",
+    "slug": "memlinc-palace-hotel",
+    "title": "Memlinc Palace Hotel",
+    "description": "8300 Knokke",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/3WLcnkJb-mF_3bEmuCtjwvX-9Lk/2vXCaw../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00213-memlinc-palace-hotel/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00214-sel-gris/",
+    "key": "00214-sel-gris",
+    "id": "00214",
+    "slug": "sel-gris",
+    "title": "Sel Gris",
+    "description": "8301 Heist-aan-Zee",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/SCbg-_hvT2ARkblablqS9SULmeA/4rGjLQ../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00214-sel-gris/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00215-pousse-cafe/",
+    "key": "00215-pousse-cafe",
+    "id": "00215",
+    "slug": "pousse-cafe",
+    "title": "Pousse Cafe",
+    "description": "8301 Heist-aan-Zee",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/Brbh3s6wr-9Z13cQNC-41EEwoes/9qUdBg../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00215-pousse-cafe/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00216-point-de-vue/",
+    "key": "00216-point-de-vue",
+    "id": "00216",
+    "slug": "point-de-vue",
+    "title": "Point De Vue",
+    "description": "8301 Heist-aan-Zee",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/3mDfxsEWeXXvU38waznMqA7yGw8/F4Ezlw../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00216-point-de-vue/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00217-le-pain-quotidien-knokke/",
+    "key": "00217-le-pain-quotidien-knokke",
+    "id": "00217",
+    "slug": "le-pain-quotidien-knokke",
+    "title": "Le Pain Quotidien Knokke",
+    "description": "8300 Knokke",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/-avKVgyQmf_mEXM0WvomDXmlB90/6GJjMg../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00217-le-pain-quotidien-knokke/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00218-restaurant-de-savoye/",
+    "key": "00218-restaurant-de-savoye",
+    "id": "00218",
+    "slug": "restaurant-de-savoye",
+    "title": "Restaurant De Savoye",
+    "description": "8300 Knokke",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/ZjQKVdBCj66CCPOLQ85GTTKJ81M/RFZT8g../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00218-restaurant-de-savoye/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00219-restaurant-de-terp-ramskapelle/",
+    "key": "00219-restaurant-de-terp-ramskapelle",
+    "id": "00219",
+    "slug": "restaurant-de-terp-ramskapelle",
+    "title": "Restaurant De Terp Ramskapelle",
+    "description": "8301 Heist-aan-Zee",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/ru2l4q5VdIX_133D2Rc9YkIiPXU/_K6-IA../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00219-restaurant-de-terp-ramskapelle/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00220-m-bistro/",
+    "key": "00220-m-bistro",
+    "id": "00220",
+    "slug": "m-bistro",
+    "title": "M BISTRO",
+    "description": "8620 Nieuwpoort",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/rU2KIaIMqG2nM_7kDAUAa3Upn40/QAXOhg../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00220-m-bistro/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00222-de-lenspolder--childrens-farm/",
+    "key": "00222-de-lenspolder--childrens-farm",
+    "id": "00222",
+    "slug": "de-lenspolder--childrens-farm",
+    "title": "De Lenspolder - Childrens farm",
+    "description": "8620 Nieuwpoort",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/GnI3Of05q-kEGAN3em5Y_irentM/P4QWcQ../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00222-de-lenspolder--childrens-farm/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00223-dijk-69/",
+    "key": "00223-dijk-69",
+    "id": "00223",
+    "slug": "dijk-69",
+    "title": "Dijk 69",
+    "description": "8620 Nieuwpoort",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/JRO7hxCwMfeVc9bFPlPp7E4eBjs/f67mZg../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00223-dijk-69/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00224-kycn-doude-jachthaven/",
+    "key": "00224-kycn-doude-jachthaven",
+    "id": "00224",
+    "slug": "kycn-doude-jachthaven",
+    "title": "KYCN D'Oude Jachthaven",
+    "description": "8620 Nieuwpoort",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/CqoAOB6FzzNRxnV05gdjyY_60M8/rmSIgQ../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00224-kycn-doude-jachthaven/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00225-feu-dor-lunch--diner--tapas/",
+    "key": "00225-feu-dor-lunch--diner--tapas",
+    "id": "00225",
+    "slug": "feu-dor-lunch--diner--tapas",
+    "title": "Feu d'Or LUNCH - DINER - TAPAS",
+    "description": "8620 Nieuwpoort",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/esW7b75nxcGYvXWD-8nR0A10nrc/8z9ELg../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00225-feu-dor-lunch--diner--tapas/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00226-sea-star-sailors-bar/",
+    "key": "00226-sea-star-sailors-bar",
+    "id": "00226",
+    "slug": "sea-star-sailors-bar",
+    "title": "Sea Star Sailor's Bar",
+    "description": "8620 Nieuwpoort",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/dsSdtqZK2PzOz7Pjk-4QGhs84Mk/ZNUb2A../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00226-sea-star-sailors-bar/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00227-sjefs/",
+    "key": "00227-sjefs",
+    "id": "00227",
+    "slug": "sjefs",
+    "title": "Sjefs",
+    "description": "8620 Nieuwpoort",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/5CKpYSDBjzWb42rRhSx339DDHlg/BZ-26g../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00227-sjefs/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00228-smak-&-saga/",
+    "key": "00228-smak-&-saga",
+    "id": "00228",
+    "slug": "smak-&-saga",
+    "title": "Smak & Saga",
+    "description": "8620 Nieuwpoort",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/UuQYwhz6iJxgdlDhGOKlEIhUwHs/EgG7IA../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00228-smak-&-saga/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00229-t-boothuis/",
+    "key": "00229-t-boothuis",
+    "id": "00229",
+    "slug": "t-boothuis",
+    "title": "'t Boothuis",
+    "description": "8620 Nieuwpoort",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/BdXCnutclxm0UUYjyVRzVSSTSyk/elV-dg../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00229-t-boothuis/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00236-belgium-pier/",
+    "key": "00236-belgium-pier",
+    "id": "00236",
+    "slug": "belgium-pier",
+    "title": "Belgium Pier",
+    "description": "8370 Blankenberge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/nlXTiMyKW0fVIPN9uFO_Uo-9Xmo/4MwMDA../Gevel1.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00236-belgium-pier/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00237-bistro-de-tijd/",
+    "key": "00237-bistro-de-tijd",
+    "id": "00237",
+    "slug": "bistro-de-tijd",
+    "title": "Bistro De Tijd",
+    "description": "8370 Blankenberge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/r4-_7jwHbu6-cdfiiyLCFDbnscg/8dZUlw../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00237-bistro-de-tijd/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00238-boulevard-25/",
+    "key": "00238-boulevard-25",
+    "id": "00238",
+    "slug": "boulevard-25",
+    "title": "Boulevard 25",
+    "description": "8370 Blankenberge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/TS-KDirwRBwQXLTNCcwLRy2ZbgE/DoXU5w../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00238-boulevard-25/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00239-bowl-inn/",
+    "key": "00239-bowl-inn",
+    "id": "00239",
+    "slug": "bowl-inn",
+    "title": "Bowl Inn",
+    "description": "8370 Blankenberge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/dy54MGUlEu_kgGE0bjR2xKHoe9E/wVuLCA../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00239-bowl-inn/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00240-marcels-groot-genoegen/",
+    "key": "00240-marcels-groot-genoegen",
+    "id": "00240",
+    "slug": "marcels-groot-genoegen",
+    "title": "Marcel's Groot Genoegen",
+    "description": "8370 Blankenberge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/y8gIj8capCgKiyJ3gWdalHHcX1k/dn52iQ../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00240-marcels-groot-genoegen/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00241-chalet-leopold/",
+    "key": "00241-chalet-leopold",
+    "id": "00241",
+    "slug": "chalet-leopold",
+    "title": "Chalet Leopold",
+    "description": "8370 Blankenberge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/yPB7epMfEjFKY56_jWrguTZqdqU/YPKbMw../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00241-chalet-leopold/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00242-oosterstaketsel/",
+    "key": "00242-oosterstaketsel",
+    "id": "00242",
+    "slug": "oosterstaketsel",
+    "title": "Oosterstaketsel",
+    "description": "8370 Blankenberge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/Mv-RXYmGer-niF1Aj6jvdfKF3Cg/Pn7HIQ../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00242-oosterstaketsel/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00243-praat-cafe-plaza/",
+    "key": "00243-praat-cafe-plaza",
+    "id": "00243",
+    "slug": "praat-cafe-plaza",
+    "title": "Praat Cafe PLAZA",
+    "description": "8370 Blankenberge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/pO5ccm6yA8JfqquVVv9r7pOz9Ek/CRggCQ../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00243-praat-cafe-plaza/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00244-venitien/",
+    "key": "00244-venitien",
+    "id": "00244",
+    "slug": "venitien",
+    "title": "Venitien",
+    "description": "8370 Blankenberge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/DWQHG-pxIXSGmd2DxRYdCNpz1BU/pmjyIQ../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00244-venitien/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00245-tearoombistro-sand/",
+    "key": "00245-tearoombistro-sand",
+    "id": "00245",
+    "slug": "tearoombistro-sand",
+    "title": "Tearoom-Bistro 'Sand",
+    "description": "8400 Oostende",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/DWa1qwCRRixMeX9nMYXDj3NLnbo/s1TglA../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00245-tearoombistro-sand/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00246-caf%C3%A9-botteltje/",
+    "key": "00246-caf%C3%A9-botteltje",
+    "id": "00246",
+    "slug": "caf%C3%A9-botteltje",
+    "title": "Café Botteltje",
+    "description": "8400 Oostende",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/ohY25PTTm6o3EgAbV9k2LaX_oLQ/20GqZA../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00246-caf%C3%A9-botteltje/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00247-leon-spilliaert/",
+    "key": "00247-leon-spilliaert",
+    "id": "00247",
+    "slug": "leon-spilliaert",
+    "title": "Leon Spilliaert",
+    "description": "8400 Oostende",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/StcGKviHnmKVqBK1E518KPD7MfQ/udWuWQ../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00247-leon-spilliaert/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00248-vraagteken/",
+    "key": "00248-vraagteken",
+    "id": "00248",
+    "slug": "vraagteken",
+    "title": "Vraagteken",
+    "description": "8400 Oostende",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/nhrO6019BODXuqf4SykgsZErIBo/m0ANug../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00248-vraagteken/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00249-dolce-mare/",
+    "key": "00249-dolce-mare",
+    "id": "00249",
+    "slug": "dolce-mare",
+    "title": "Dolce Mare",
+    "description": "8400 Oostende",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/rK_q1MuCVlhTWAexdhPXQc9vwQo/AJcc9w../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00249-dolce-mare/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00250-hangtime/",
+    "key": "00250-hangtime",
+    "id": "00250",
+    "slug": "hangtime",
+    "title": "Hangtime",
+    "description": "8400 Oostende",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/n0mNVBKG8BH0t3oHJdFYdq-FWiA/UijjzQ../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00250-hangtime/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00251-mange-tout/",
+    "key": "00251-mange-tout",
+    "id": "00251",
+    "slug": "mange-tout",
+    "title": "Mange Tout",
+    "description": "8400 Oostende",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/vCbTmaVaDgxbqD-HlJ_nmoBvrQc/bfRV7g../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00251-mange-tout/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00252-marie-k-beach-summer-vibes/",
+    "key": "00252-marie-k-beach-summer-vibes",
+    "id": "00252",
+    "slug": "marie-k-beach-summer-vibes",
+    "title": "Marie K beach summer vibes",
+    "description": "8400 Oostende",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/JO4gBWs1SJ2k0KdBT_gRmCkF1As/TlC2KA../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00252-marie-k-beach-summer-vibes/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00253-moby-dick/",
+    "key": "00253-moby-dick",
+    "id": "00253",
+    "slug": "moby-dick",
+    "title": "Moby Dick",
+    "description": "8400 Oostende",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/fdNRvyrn2P4d7wfUzYvDo8Ytxqw/cv15Nw../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00253-moby-dick/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00255-mooseostend/",
+    "key": "00255-mooseostend",
+    "id": "00255",
+    "slug": "mooseostend",
+    "title": "MOOSE-Ostend",
+    "description": "8400 Oostende",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/l9QQc4qCOi-nm2wEX8fCJPxDfR4/wEIAlw../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00255-mooseostend/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00256-restaurant-runway-26=08/",
+    "key": "00256-restaurant-runway-26=08",
+    "id": "00256",
+    "slug": "restaurant-runway-26=08",
+    "title": "Restaurant Runway 26=08",
+    "description": "8400 Oostende",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/rJ3tJHRVqSAijOixe1l7P37LAiY/9r0PWQ../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00256-restaurant-runway-26=08/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00257-strandbar-buddha-mar/",
+    "key": "00257-strandbar-buddha-mar",
+    "id": "00257",
+    "slug": "strandbar-buddha-mar",
+    "title": "Strandbar Buddha Mar",
+    "description": "8400 Oostende",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/QipX-u2wlVJEPq3KNz2a8sUH6l4/lJcLXg../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00257-strandbar-buddha-mar/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00258-zigzag-artbar-oostende/",
+    "key": "00258-zigzag-artbar-oostende",
+    "id": "00258",
+    "slug": "zigzag-artbar-oostende",
+    "title": "ZigZag art-bar Oostende",
+    "description": "8400 Oostende",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/U9VYpoqxRh42yT0ZlySN_PxF_Nk/MRf3hg../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00258-zigzag-artbar-oostende/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00262-frituur-cono/",
+    "key": "00262-frituur-cono",
+    "id": "00262",
+    "slug": "frituur-cono",
+    "title": "Frituur Cono",
+    "description": "8660 De Panne",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/_hnmgEhNtoQXkaovbkIY6pK4ySI/CuxsXw../gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00262-frituur-cono/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00267-lago-kortrijk-weide/",
+    "key": "00267-lago-kortrijk-weide",
+    "id": "00267",
+    "slug": "lago-kortrijk-weide",
+    "title": "LAGO Kortrijk Weide",
+    "description": "8500 Kortrijk",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/OLUyO5hGvN7xm7jPkml5IvX6T3E/kDkhqQ../Lago-19.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00267-lago-kortrijk-weide/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00270-buda-kitchen/",
+    "key": "00270-buda-kitchen",
+    "id": "00270",
+    "slug": "buda-kitchen",
+    "title": "Buda Kitchen",
+    "description": "8500 Kortrijk",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/vBzoBj8A-vGl77CfOrvmXtEVwAc/nyVtxQ../1.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00270-buda-kitchen/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00272-bon-dia-brunch/",
+    "key": "00272-bon-dia-brunch",
+    "id": "00272",
+    "slug": "bon-dia-brunch",
+    "title": "BON DIA Brunch",
+    "description": "8500 Kortrijk",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/fUlY-Sq5_htxyXOKmuBMC2E0f0k/qWqAiA../IMG_4834.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00272-bon-dia-brunch/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00275-arthies/",
+    "key": "00275-arthies",
+    "id": "00275",
+    "slug": "arthies",
+    "title": "Arthie's",
+    "description": "8000 Brugge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/Wael8DBlPT56motWthStds1g9xg/vs6SHg../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00275-arthies/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00276-brasserie-de-feniks/",
+    "key": "00276-brasserie-de-feniks",
+    "id": "00276",
+    "slug": "brasserie-de-feniks",
+    "title": "Brasserie de Feniks",
+    "description": "8000 Brugge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/ylt0WgyliaHvJXf52Gv2cZ3adKg/uTBHmA../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00276-brasserie-de-feniks/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00277-nelson/",
+    "key": "00277-nelson",
+    "id": "00277",
+    "slug": "nelson",
+    "title": "Nelson",
+    "description": "8380 Dudzele",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/sBsUTqykzR-NTZ0i2KWCPaKg9us/jLky4Q../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00277-nelson/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00280-less-is-more/",
+    "key": "00280-less-is-more",
+    "id": "00280",
+    "slug": "less-is-more",
+    "title": "Less is More",
+    "description": "8000 Brugge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/42smmSjhhoU5FuFDgjtNxx9Pzu0/Kzn8Dw../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00280-less-is-more/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00281-ona-by-%E2%80%98t-werftje/",
+    "key": "00281-ona-by-%E2%80%98t-werftje",
+    "id": "00281",
+    "slug": "ona-by-%E2%80%98t-werftje",
+    "title": "ONA by ‘t Werftje",
+    "description": "8380 Dudzele",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/2nTpf_Rp0KOSbfcUgzigvL11ds4/R9jdUg../VR.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00281-ona-by-%E2%80%98t-werftje/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00283-trekkershutten-tillegembos/",
+    "key": "00283-trekkershutten-tillegembos",
+    "id": "00283",
+    "slug": "trekkershutten-tillegembos",
+    "title": "Trekkershutten Tillegembos",
+    "description": "8200 Sint-Andries",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/Eiz4-prIndR3CbMXQJzTqxHIlVc/wEFQnQ../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00283-trekkershutten-tillegembos/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00284-sea-and-sand/",
+    "key": "00284-sea-and-sand",
+    "id": "00284",
+    "slug": "sea-and-sand",
+    "title": "Sea and Sand",
+    "description": "8380 Dudzele",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/NIStayVk00Bc5GFi_O5bzVTVtcA/7WOnIw../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00284-sea-and-sand/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00287-the-blue-lobster-zeebrugge/",
+    "key": "00287-the-blue-lobster-zeebrugge",
+    "id": "00287",
+    "slug": "the-blue-lobster-zeebrugge",
+    "title": "The Blue Lobster Zeebrugge",
+    "description": "8380 Dudzele",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/CUdY3TkdVwMGIAxKr49yjhMYMHA/oeE9aw../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00287-the-blue-lobster-zeebrugge/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00288-cafe-the-sailor/",
+    "key": "00288-cafe-the-sailor",
+    "id": "00288",
+    "slug": "cafe-the-sailor",
+    "title": "Cafe The Sailor",
+    "description": "8380 Dudzele",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/zmBe-J3r10hbic8jSY4NLhRrWUE/6aGQSA../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00288-cafe-the-sailor/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00289-tijdok/",
+    "key": "00289-tijdok",
+    "id": "00289",
+    "slug": "tijdok",
+    "title": "Tijdok",
+    "description": "8380 Dudzele",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/976riARP5QQtg6qj4wFrIRf10co/YpPsoQ../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00289-tijdok/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00291-de-bokes/",
+    "key": "00291-de-bokes",
+    "id": "00291",
+    "slug": "de-bokes",
+    "title": "de Bokes",
+    "description": "8500 Kortrijk",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/xSG2oYeuBZ7zPMjlxQpw8moqcpA/Znwayw../WhatsApp+Image+2024-01-09+at+15.08.31+%283%29.jpeg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00291-de-bokes/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00293-tearoom-mdue/",
+    "key": "00293-tearoom-mdue",
+    "id": "00293",
+    "slug": "tearoom-mdue",
+    "title": "Tearoom Mdue",
+    "description": "8450 Bredene",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/0YlxfDOc6d4BEGI8tXa3TqdUhpg/UAu8Zg../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00293-tearoom-mdue/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00294-brasserie/",
+    "key": "00294-brasserie",
+    "id": "00294",
+    "slug": "brasserie",
+    "title": "Brasserie",
+    "description": "8450 Bredene",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/WC2Hy4A_FEPvobj6pwU7RnZx-Ys/VHrgZw../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00294-brasserie/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00295-de-gavermolen/",
+    "key": "00295-de-gavermolen",
+    "id": "00295",
+    "slug": "de-gavermolen",
+    "title": "De Gavermolen",
+    "description": "8530 Harelbeke",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/Vm0Ltx0TnjY69VcdRCmTBToxfO4/oJTz6w../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00295-de-gavermolen/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00296-novotel-ieper-centrum-flanders-fields/",
+    "key": "00296-novotel-ieper-centrum-flanders-fields",
+    "id": "00296",
+    "slug": "novotel-ieper-centrum-flanders-fields",
+    "title": "Novotel Ieper Centrum Flanders Fields",
+    "description": "8900 Ieper",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/zsSFE0p7tpolV7lnnNuHnvlMRFI/m_KRZA../Gevel.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00296-novotel-ieper-centrum-flanders-fields/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00315-de-maan/",
+    "key": "00315-de-maan",
+    "id": "00315",
+    "slug": "de-maan",
+    "title": "De Maan",
+    "description": "2800 Mechelen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/Xh1sO4e6SllqPZklI3afKkiU0NU/a78M0Q../Gevel.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00315-de-maan/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00323-caf%C3%A9-dudu/",
+    "key": "00323-caf%C3%A9-dudu",
+    "id": "00323",
+    "slug": "caf%C3%A9-dudu",
+    "title": "Café Dudu",
+    "description": "8501 Bissegem",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/hkkCxHi5yZYOyxaFV1qfNCdsI-s/zQrQaA../416957090_895214775417945_2090401237481067004_n.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00323-caf%C3%A9-dudu/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00327-eetcaf%C3%A9-t-folk/",
+    "key": "00327-eetcaf%C3%A9-t-folk",
+    "id": "00327",
+    "slug": "eetcaf%C3%A9-t-folk",
+    "title": "Eetcafé 't Folk",
+    "description": "8958 Loker",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/wM5JGYeh1GTjgCauXmhTsq8T97k/uYL04g../IMG_7154.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00327-eetcaf%C3%A9-t-folk/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00329-restaurant-vincent/",
+    "key": "00329-restaurant-vincent",
+    "id": "00329",
+    "slug": "restaurant-vincent",
+    "title": "Restaurant Vincent",
+    "description": "8500 Kortrijk",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/EDWFO6FL86F7zPtB1qJ12QRMgBE/sTO92Q../inkom4.jpeg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00329-restaurant-vincent/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00334-boutique-parazaar/",
+    "key": "00334-boutique-parazaar",
+    "id": "00334",
+    "slug": "boutique-parazaar",
+    "title": "Boutique Parazaar",
+    "description": "8500 Kortrijk",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/oadvDP3PqkVoERxxjNo0tgYuEaU/gxrk2w../220919_F07_COMMERCEDESIGN_PARAZAAR_034.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00334-boutique-parazaar/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00335-no-worries/",
+    "key": "00335-no-worries",
+    "id": "00335",
+    "slug": "no-worries",
+    "title": "No worries",
+    "description": "2000 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/uHDc4WJ63kjumB8L45ZsrqolJzU/VT8F1g../Foto+inkom+langs+binnen.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00335-no-worries/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00336-(jazz)-kaffee-damast,-bistro-van-texture/",
+    "key": "00336-(jazz)-kaffee-damast,-bistro-van-texture",
+    "id": "00336",
+    "slug": "(jazz)-kaffee-damast,-bistro-van-texture",
+    "title": "(Jazz) Kaffee Damast, bistro van Texture",
+    "description": "8500 Kortrijk",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/9cS7RFuUYDG0X-weY3tfzk5IjIk/-UQ17w../20240315_112740.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00336-(jazz)-kaffee-damast,-bistro-van-texture/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00343-nata/",
+    "key": "00343-nata",
+    "id": "00343",
+    "slug": "nata",
+    "title": "Nata",
+    "description": "8500 Kortrijk",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/TqtRaZ1R69DZ51rWpRcynGdsbb8/Ck8ZaA../voorkant+nata.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00343-nata/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00350-dienstencentrum-biezenbilk/",
+    "key": "00350-dienstencentrum-biezenbilk",
+    "id": "00350",
+    "slug": "dienstencentrum-biezenbilk",
+    "title": "Dienstencentrum Biezenbilk",
+    "description": "8460 Oudenburg",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/7rVD3VlIOK3833RGGskjlQkD8js/mVgqzg../IMG_6149.JPEG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00350-dienstencentrum-biezenbilk/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00366-t-meulenhuys_surprise-mie-ontbijthuis/",
+    "key": "00366-t-meulenhuys_surprise-mie-ontbijthuis",
+    "id": "00366",
+    "slug": "t-meulenhuys_surprise-mie-ontbijthuis",
+    "title": "'t Meulenhuys_Surprise Mie ontbijthuis",
+    "description": "8940 Wervik",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/CQvPDlElDvOGTLOQU07gUnsJXfg/6G9TLA../447875793_1241647520157842_4990117321838548036_n.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00366-t-meulenhuys_surprise-mie-ontbijthuis/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00370-t-grof-zout/",
+    "key": "00370-t-grof-zout",
+    "id": "00370",
+    "slug": "t-grof-zout",
+    "title": "'t Grof Zout",
+    "description": "9500 Geraardsbergen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/Qg6HoWLf8cAbJG_zR0D89D8DuzM/ALeqfQ../_DSC1404.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00370-t-grof-zout/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00373-brasserie-kronacker/",
+    "key": "00373-brasserie-kronacker",
+    "id": "00373",
+    "slug": "brasserie-kronacker",
+    "title": "Brasserie Kronacker",
+    "description": "3300 Tienen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/PMRnutW-kPi9pky4luf49onQYGs/dXu1bA../IMG_20240619_170002.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00373-brasserie-kronacker/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00381-tunnel-2.0/",
+    "key": "00381-tunnel-2.0",
+    "id": "00381",
+    "slug": "tunnel-2.0",
+    "title": "Perron 5",
+    "description": "3020 Herent",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/3Sgvcuc7y1875hHFkLA7duv9iiY/E5xIow../IMG_0486.jpeg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00381-tunnel-2.0/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00384-colonie-7--gastenkamers/",
+    "key": "00384-colonie-7--gastenkamers",
+    "id": "00384",
+    "slug": "colonie-7--gastenkamers",
+    "title": "Colonie 7 - Gastenkamers",
+    "description": "2330 Merksplas",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/NIFk2xGTJhjq6qwweuX4oXRcR68/XCg6rQ../Colonie7_Buitenzijde.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00384-colonie-7--gastenkamers/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00385-de-linde/",
+    "key": "00385-de-linde",
+    "id": "00385",
+    "slug": "de-linde",
+    "title": "De Linde",
+    "description": "2520 Ranst",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/cj8CRZbvb747w0ycQB0fCjP_Fkw/bWsIGQ../DeLinde_Buitenkant.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00385-de-linde/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00386-arboretum-kalmthout/",
+    "key": "00386-arboretum-kalmthout",
+    "id": "00386",
+    "slug": "arboretum-kalmthout",
+    "title": "Arboretum Kalmthout",
+    "description": "2920 Kalmthout",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/QIiIs6wr7KCrHE21Spwj614MOk0/ecOsgg../Buitenzijde_Arboretum.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00386-arboretum-kalmthout/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00387-de-campina/",
+    "key": "00387-de-campina",
+    "id": "00387",
+    "slug": "de-campina",
+    "title": "De Campina",
+    "description": "2480 Dessel",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/ozl5-sQVrEsmbumn7fzBFQvXgHI/kajG4g../CafeCampina_Buitenzijde.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00387-de-campina/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00388-het-veld/",
+    "key": "00388-het-veld",
+    "id": "00388",
+    "slug": "het-veld",
+    "title": "Het Veld",
+    "description": "2240 Zandhoven",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/MlaBvR77HWL48vdSn6TeomsqAUc/LfeeFA../HetVeld_Buitenzijde.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00388-het-veld/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00389-de-klein-cluys--ijssalon/",
+    "key": "00389-de-klein-cluys--ijssalon",
+    "id": "00389",
+    "slug": "de-klein-cluys--ijssalon",
+    "title": "De Klein Cluys - ijssalon",
+    "description": "2460 Kasterlee",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/yAnnXOihrSZNfcPH_aSeGzEIloA/d92MGA../KleinCluys_Buitenzicht.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00389-de-klein-cluys--ijssalon/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00390-g%C3%A5-nord/",
+    "key": "00390-g%C3%A5-nord",
+    "id": "00390",
+    "slug": "g%C3%A5-nord",
+    "title": "Gå Nord",
+    "description": "2060 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/nRP5LPtX15Wvsv9ZE385DB9ImOM/8ZnJ4Q../GaNord_Buitenkant.PNG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00390-g%C3%A5-nord/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00391-glinstering-aan-het-zilvermeer/",
+    "key": "00391-glinstering-aan-het-zilvermeer",
+    "id": "00391",
+    "slug": "glinstering-aan-het-zilvermeer",
+    "title": "Glinstering aan het Zilvermeer",
+    "description": "2400 Mol",
+    "image": null,
+    "canonical": "https://iedereen.overal.info/locaties/00391-glinstering-aan-het-zilvermeer/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00392-silver-lake-harbor-port-aventura-bvba/",
+    "key": "00392-silver-lake-harbor-port-aventura-bvba",
+    "id": "00392",
+    "slug": "silver-lake-harbor-port-aventura-bvba",
+    "title": "Silver Lake Harbor Port Aventura BVBA",
+    "description": "2400 Mol",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/xpIxiEGT7JION62xHRruojfw5Es/rdwY3Q../ProtAventura_Buitenzijde.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00392-silver-lake-harbor-port-aventura-bvba/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00393-boshuis/",
+    "key": "00393-boshuis",
+    "id": "00393",
+    "slug": "boshuis",
+    "title": "Boshuis",
+    "description": "2220 Heist-op-den-Berg",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/NQg5Lvi7NgIGa2n8cT1aMyC-Q2M/nSnaEQ../Boshuis_Buitenzicht.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00393-boshuis/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00395-in-de-wandeling/",
+    "key": "00395-in-de-wandeling",
+    "id": "00395",
+    "slug": "in-de-wandeling",
+    "title": "In de Wandeling",
+    "description": "2980 Zoersel",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/-PQ9WvtRW9u7gdSOO_wh4uenlJw/yQTukg../Wandeling_Buitenzicht.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00395-in-de-wandeling/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00396-kasteel-rivierenhof/",
+    "key": "00396-kasteel-rivierenhof",
+    "id": "00396",
+    "slug": "kasteel-rivierenhof",
+    "title": "Kasteel Rivierenhof",
+    "description": "2100 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/KhR0jo4qxTYjkJbLH5MIuhijaFI/_YJ4HA../Kasteel_Buitenzicht.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00396-kasteel-rivierenhof/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00397-remise/",
+    "key": "00397-remise",
+    "id": "00397",
+    "slug": "remise",
+    "title": "Remise",
+    "description": "2520 Ranst",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/fk53UqWGnYTYDv-w02Xy4SXpJu8/FTpyxA../Remise_Buitenzicht.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00397-remise/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00399-anders/",
+    "key": "00399-anders",
+    "id": "00399",
+    "slug": "anders",
+    "title": "Anders",
+    "description": "2460 Kasterlee",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/NkqG57eQ80lNq49ov-3EQRw-HgM/U7O1Tw../Anders_Buitenzicht.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00399-anders/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00400-brasserie-t-hofeind/",
+    "key": "00400-brasserie-t-hofeind",
+    "id": "00400",
+    "slug": "brasserie-t-hofeind",
+    "title": "Brasserie 't Hofeind",
+    "description": "2330 Merksplas",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/A7XW4G8R5j8DD093c1V6s_yyGt0/QVc94Q../Hofeind_Buitenzicht.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00400-brasserie-t-hofeind/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00401-sportoase-groot-schijn/",
+    "key": "00401-sportoase-groot-schijn",
+    "id": "00401",
+    "slug": "sportoase-groot-schijn",
+    "title": "Sportoase Groot Schijn",
+    "description": "2100 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/NU69oIheihC6g1fHyct3rtD9e6w/fuOcCw../GrootSchijn_Buitenzicht.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00401-sportoase-groot-schijn/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00402-tavern-silver-forest/",
+    "key": "00402-tavern-silver-forest",
+    "id": "00402",
+    "slug": "tavern-silver-forest",
+    "title": "Tavern Silver Forest",
+    "description": "2400 Mol",
+    "image": null,
+    "canonical": "https://iedereen.overal.info/locaties/00402-tavern-silver-forest/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00403-watersportcentrum-zilvermeer/",
+    "key": "00403-watersportcentrum-zilvermeer",
+    "id": "00403",
+    "slug": "watersportcentrum-zilvermeer",
+    "title": "Watersportcentrum Zilvermeer",
+    "description": "2400 Mol",
+    "image": null,
+    "canonical": "https://iedereen.overal.info/locaties/00403-watersportcentrum-zilvermeer/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00408-care-center-de-bron/",
+    "key": "00408-care-center-de-bron",
+    "id": "00408",
+    "slug": "care-center-de-bron",
+    "title": "Care center De Bron",
+    "description": "9620 Zottegem",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/7U1iHzvrNVo6BKmZgVCp7A5ht84/i0dBdA../Buitenzijde+gebouw.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00408-care-center-de-bron/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00417-bistro-%E2%80%99t-bosh%C3%BCs/",
+    "key": "00417-bistro-%E2%80%99t-bosh%C3%BCs",
+    "id": "00417",
+    "slug": "bistro-%E2%80%99t-bosh%C3%BCs",
+    "title": "Bistro ’t Boshüs",
+    "description": "8791 Beveren",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/bHzjnRlBbeyQfddxDM15jZNr_hU/AmUP1A../1.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00417-bistro-%E2%80%99t-bosh%C3%BCs/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00418-woonzorgcentrum-westerlinde/",
+    "key": "00418-woonzorgcentrum-westerlinde",
+    "id": "00418",
+    "slug": "woonzorgcentrum-westerlinde",
+    "title": "Woonzorgcentrum Westerlinde",
+    "description": "8800 Roeselare",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/x1S3MoBLSJSDPDONNmB0ocCSBYc/A5Z9tQ../1.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00418-woonzorgcentrum-westerlinde/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00421-madonna/",
+    "key": "00421-madonna",
+    "id": "00421",
+    "slug": "madonna",
+    "title": "Madonna",
+    "description": "2000 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/fJ28Ihyh5nm0-jrlxH1cqB56d5I/Vm2fCA../Buitezijde+inkom+museum.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00421-madonna/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00422-horta-grand-caf%C3%A9-&-art-nouveau-zaal/",
+    "key": "00422-horta-grand-caf%C3%A9-&-art-nouveau-zaal",
+    "id": "00422",
+    "slug": "horta-grand-caf%C3%A9-&-art-nouveau-zaal",
+    "title": "Horta Grand Café & Art Nouveau Zaal",
+    "description": "2000 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/E0o-VfQGR6LRzcBED9WnfddkP-g/Qn1fCw../Terras.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00422-horta-grand-caf%C3%A9-&-art-nouveau-zaal/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00423-zilte/",
+    "key": "00423-zilte",
+    "id": "00423",
+    "slug": "zilte",
+    "title": "Zilte",
+    "description": "2000 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/jVKNkVDKQts2Y4YfYCb4so7pPwA/M4Iz0Q../Inkom+Zilte.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00423-zilte/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00425-foodbar-ch%C3%A9rie/",
+    "key": "00425-foodbar-ch%C3%A9rie",
+    "id": "00425",
+    "slug": "foodbar-ch%C3%A9rie",
+    "title": "Foodbar Chérie",
+    "description": "9160 Lokeren",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/9M70E2viFqtpd_jxcq3vMoqGkBs/GyzExg../WhatsApp+Image+2024-10-20+at+10.29.57+%281%29.jpeg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00425-foodbar-ch%C3%A9rie/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00427-de-koffiebar/",
+    "key": "00427-de-koffiebar",
+    "id": "00427",
+    "slug": "de-koffiebar",
+    "title": "De Koffiebar",
+    "description": "2030 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/KrNZg5BbtuXXPIN2RpxW6TBwvng/5HK4cg../Havenhuis.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00427-de-koffiebar/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00430-toitoitoi-coffee-x-culture-antwerpen/",
+    "key": "00430-toitoitoi-coffee-x-culture-antwerpen",
+    "id": "00430",
+    "slug": "toitoitoi-coffee-x-culture-antwerpen",
+    "title": "ToiToiToi Coffee x Culture / Antwerpen",
+    "description": "2000 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/M4wNXsU7BNhEBFE68nDefaO_inM/6xIZWw../Inkom+ToiToiToi.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00430-toitoitoi-coffee-x-culture-antwerpen/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00432-frituur-bossuw%C3%A9-pottelberg/",
+    "key": "00432-frituur-bossuw%C3%A9-pottelberg",
+    "id": "00432",
+    "slug": "frituur-bossuw%C3%A9-pottelberg",
+    "title": "Frituur Bossuwé Pottelberg",
+    "description": "8500 Kortrijk",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/mgj_epBZE4ppwDc--0g1Rx7jWVQ/8GLeJQ../Facade.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00432-frituur-bossuw%C3%A9-pottelberg/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00433-circus/",
+    "key": "00433-circus",
+    "id": "00433",
+    "slug": "circus",
+    "title": "CIRCUS",
+    "description": "2000 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/IigfBLHhDBcq-Yy6qql_oOJ0rh4/t8UUyw../Inkom.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00433-circus/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00438-m-hkafe/",
+    "key": "00438-m-hkafe",
+    "id": "00438",
+    "slug": "m-hkafe",
+    "title": "M HKAFE",
+    "description": "2000 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/sFzerWKz0UWBHM8CE0KoFS7xthI/Hw0uTQ../MHKA+buitenzijde.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00438-m-hkafe/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00440-otto-waffle-atelier-katelijnestraat/",
+    "key": "00440-otto-waffle-atelier-katelijnestraat",
+    "id": "00440",
+    "slug": "otto-waffle-atelier-katelijnestraat",
+    "title": "Otto Waffle Atelier Katelijnestraat",
+    "description": "8000 Brugge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/iE1VuGZs6cf7tuc9LdVXV1I0jXY/hkDDrA../Afbeelding+van+WhatsApp+op+2024-12-17+om+12.20.58_09a0dfe5.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00440-otto-waffle-atelier-katelijnestraat/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00443-caf%C3%A9matic/",
+    "key": "00443-caf%C3%A9matic",
+    "id": "00443",
+    "slug": "caf%C3%A9matic",
+    "title": "Cafématic",
+    "description": "2000 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/rVfK94JoK2u1pdHROO3tEO6YRqo/rIx5zw../unnamed.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00443-caf%C3%A9matic/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00444-niya/",
+    "key": "00444-niya",
+    "id": "00444",
+    "slug": "niya",
+    "title": "Niya",
+    "description": "2000 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/ayWSAA7etf6GAy0Yt79O203IFko/FfH8oA../IMG_6214.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00444-niya/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00447-cornichon/",
+    "key": "00447-cornichon",
+    "id": "00447",
+    "slug": "cornichon",
+    "title": "Cornichon",
+    "description": "2060 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/10Mda9w3VIE1C-_nif5RK9atlwg/3FDM5g../Screenshot+2025-03-05+113919.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00447-cornichon/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00448-momu-caf%C3%A9/",
+    "key": "00448-momu-caf%C3%A9",
+    "id": "00448",
+    "slug": "momu-caf%C3%A9",
+    "title": "MoMu Café",
+    "description": "2000 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/jzw_-yD22quN0IodW6AvICrMD2Q/WeP42w../Grote+inkom.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00448-momu-caf%C3%A9/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00450-caf%C3%A9-kamiel/",
+    "key": "00450-caf%C3%A9-kamiel",
+    "id": "00450",
+    "slug": "caf%C3%A9-kamiel",
+    "title": "Café Kamiel",
+    "description": "2018 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/FDr1xUjxuNtJg3EOq6RUCEbxISQ/9XNI1Q../IMG_6258.jpeg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00450-caf%C3%A9-kamiel/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00451-murukutum/",
+    "key": "00451-murukutum",
+    "id": "00451",
+    "slug": "murukutum",
+    "title": "Murukutum",
+    "description": "2018 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/yc5X-guzhLJfLTCGhQzH_UqtKt4/uOsaoA../2021-07-08.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00451-murukutum/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00452-me-&-my-monkey/",
+    "key": "00452-me-&-my-monkey",
+    "id": "00452",
+    "slug": "me-&-my-monkey",
+    "title": "Me & My Monkey",
+    "description": "2000 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/HUjHlDE-ZKhnTI6SV17kwVl_E3s/JFNyVg../Me-My-Monkey_e93ff50ed6abee99deb7bfedcacf3513.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00452-me-&-my-monkey/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00453-zigzag/",
+    "key": "00453-zigzag",
+    "id": "00453",
+    "slug": "zigzag",
+    "title": "ZIGZAG",
+    "description": "2060 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/12BbSMAeOfJaaG7qqMriRxX-BX4/e8Ubrw../Screenshot+2025-03-05+122619.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00453-zigzag/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00454-bistro-rocco/",
+    "key": "00454-bistro-rocco",
+    "id": "00454",
+    "slug": "bistro-rocco",
+    "title": "Bistro Rocco",
+    "description": "2140 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/0t9mRqlrx82ADlutDJLvBVgpI84/6dHa4w../Screenshot+2025-03-05+123533.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00454-bistro-rocco/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00455-lokaal-dienstencentrum-den-aftrap/",
+    "key": "00455-lokaal-dienstencentrum-den-aftrap",
+    "id": "00455",
+    "slug": "lokaal-dienstencentrum-den-aftrap",
+    "title": "Lokaal Dienstencentrum Den Aftrap",
+    "description": "9100 Sint-Niklaas",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/INiL1Eglhj2Bu5kIJ44Jk6G7AHM/XJSNHQ../20250325_155725.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00455-lokaal-dienstencentrum-den-aftrap/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00457-normo/",
+    "key": "00457-normo",
+    "id": "00457",
+    "slug": "normo",
+    "title": "Normo",
+    "description": "2000 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/ZFtTFsYBqrAVJvlj6tw9071iY_8/9oyZlQ../Screenshot+2025-03-16+at+20.38.13.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00457-normo/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00458-bar-stark/",
+    "key": "00458-bar-stark",
+    "id": "00458",
+    "slug": "bar-stark",
+    "title": "Bar Stark",
+    "description": "2100 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/eeAsn8V986XLrNDwgJxJfLeD1Sg/HQCe1g../Screenshot+2025-03-16+at+20.49.30.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00458-bar-stark/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00459-bar-bakeliet/",
+    "key": "00459-bar-bakeliet",
+    "id": "00459",
+    "slug": "bar-bakeliet",
+    "title": "Bar Bakeliet",
+    "description": "2140 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/LJvwqTLPlVyvSPzP4rU9GbiqIl8/Y72yyg../Screenshot+2025-03-16+at+21.21.12.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00459-bar-bakeliet/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00460-copain/",
+    "key": "00460-copain",
+    "id": "00460",
+    "slug": "copain",
+    "title": "Copain",
+    "description": "2000 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/MikZ4c8iZCHbYQfqE3mGYzMuxZk/yJkLWg../Screenshot+2025-03-16+at+22.01.54.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00460-copain/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00461-koffie-dealers/",
+    "key": "00461-koffie-dealers",
+    "id": "00461",
+    "slug": "koffie-dealers",
+    "title": "Koffie Dealers",
+    "description": "2000 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/JSW3_iipZzdlygKYlx9l_659T0I/j4LQBw../Screenshot+2025-03-16+at+22.48.15.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00461-koffie-dealers/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00462-bar-oscar/",
+    "key": "00462-bar-oscar",
+    "id": "00462",
+    "slug": "bar-oscar",
+    "title": "Bar Oscar",
+    "description": "2060 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/VFCySB5OA4rExbFNpezZ0RCovS4/ZGvfUA../Screenshot+2025-03-17+151244.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00462-bar-oscar/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00463-vitesse-coffee-&-cycling/",
+    "key": "00463-vitesse-coffee-&-cycling",
+    "id": "00463",
+    "slug": "vitesse-coffee-&-cycling",
+    "title": "Vitesse Coffee & Cycling",
+    "description": "2018 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/n_7UOLZIVIupiOUyiGYV38hm8vo/Dr92xQ../Vitesse_outside.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00463-vitesse-coffee-&-cycling/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00465-gitanes/",
+    "key": "00465-gitanes",
+    "id": "00465",
+    "slug": "gitanes",
+    "title": "GITANES",
+    "description": "2600 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/2mOG_z_Ie4v5SP2G6shS-TUMGWQ/GaOsZA../Screenshot+2025-03-17+at+20.12.41.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00465-gitanes/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00466-caf%C3%A9-de-kroon/",
+    "key": "00466-caf%C3%A9-de-kroon",
+    "id": "00466",
+    "slug": "caf%C3%A9-de-kroon",
+    "title": "Café De Kroon",
+    "description": "2060 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/sdmctDG6xhqr3eaCIxaVw19dvRk/sF-XAQ../Screenshot+2025-03-18+114936.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00466-caf%C3%A9-de-kroon/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00467-hetgeluk/",
+    "key": "00467-hetgeluk",
+    "id": "00467",
+    "slug": "hetgeluk",
+    "title": "hetgeluk",
+    "description": "2000 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/5Ie4q4KKDIZrvKc3yHHOb9hZn0I/1Ds5eQ../img24909_orig.webp?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00467-hetgeluk/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00468-lokaal-dienstencentrum-houtmere/",
+    "key": "00468-lokaal-dienstencentrum-houtmere",
+    "id": "00468",
+    "slug": "lokaal-dienstencentrum-houtmere",
+    "title": "Lokaal Dienstencentrum Houtmere",
+    "description": "2070 Zwijndrecht",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/_HkSbIrm4bg9ijGpemM7_DlQeVY/UnjiHg../Media+%2887%29.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00468-lokaal-dienstencentrum-houtmere/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00473-caf%C3%A9-bij-guske/",
+    "key": "00473-caf%C3%A9-bij-guske",
+    "id": "00473",
+    "slug": "caf%C3%A9-bij-guske",
+    "title": "café bij Guske",
+    "description": "3740 Bilzen-Hoeselt",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/q--mdK4lvMqSNBAFhxjnvW2S93U/bhDjqA../IMG_E0266.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00473-caf%C3%A9-bij-guske/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00476-nives/",
+    "key": "00476-nives",
+    "id": "00476",
+    "slug": "nives",
+    "title": "Nives",
+    "description": "2018 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/wVsAQVytUuHBJEgqbZAPBDp6bwc/SBkgtw../Nives_buitenkant.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00476-nives/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00497-il-divino-di-milano/",
+    "key": "00497-il-divino-di-milano",
+    "id": "00497",
+    "slug": "il-divino-di-milano",
+    "title": "Il Divino di Milano",
+    "description": "2990 Wuustwezel",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/sxbec-WGHF4BhADvwtyggeVXCz8/NBZ_Fw../Schermafbeelding+2025-09-21+160247.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00497-il-divino-di-milano/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00498-t-salamanderke/",
+    "key": "00498-t-salamanderke",
+    "id": "00498",
+    "slug": "t-salamanderke",
+    "title": "'t Salamanderke",
+    "description": "3630 Maasmechelen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/CC8cOlL25xK17FHDeG_D0_3GeSM/7PROcA../outdoor-salamander.JPG?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00498-t-salamanderke/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00499-brasserie-ch%C3%A9rie/",
+    "key": "00499-brasserie-ch%C3%A9rie",
+    "id": "00499",
+    "slug": "brasserie-ch%C3%A9rie",
+    "title": "Brasserie Chérie",
+    "description": "9290 Berlare",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/4EioREy27-ih2BVJR5jXKfnNrwo/Ye9gcg../B2097EEE-F8A9-4755-AB51-44D196BEE5C0.jpeg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00499-brasserie-ch%C3%A9rie/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00502-erfgoedcaf%C3%A9-ename/",
+    "key": "00502-erfgoedcaf%C3%A9-ename",
+    "id": "00502",
+    "slug": "erfgoedcaf%C3%A9-ename",
+    "title": "Erfgoedcafé Ename",
+    "description": "9700 Oudenaarde",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/WgWpQ4vM2t1bYM38Vc8sppd6c5c/Ab2oFQ../20250818_095808.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00502-erfgoedcaf%C3%A9-ename/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00503-provinciaal-streekcentrum-huysmanhoeve/",
+    "key": "00503-provinciaal-streekcentrum-huysmanhoeve",
+    "id": "00503",
+    "slug": "provinciaal-streekcentrum-huysmanhoeve",
+    "title": "Provinciaal Streekcentrum Huysmanhoeve",
+    "description": "9900 Eeklo",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/8WklKNJDqhIgZc4dOR5V8pJvYDo/PAb9Zg../20250618_140520.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00503-provinciaal-streekcentrum-huysmanhoeve/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00504-zwembad-puyenbroeck/",
+    "key": "00504-zwembad-puyenbroeck",
+    "id": "00504",
+    "slug": "zwembad-puyenbroeck",
+    "title": "Zwembad Puyenbroeck",
+    "description": "9185 Lochristi",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/rFvv0AWMLRVSJwcOdEiEzRPdJkg/z5qDiQ../20250820_142612.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00504-zwembad-puyenbroeck/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00505-provinciaal-domein-puyenbroeck/",
+    "key": "00505-provinciaal-domein-puyenbroeck",
+    "id": "00505",
+    "slug": "provinciaal-domein-puyenbroeck",
+    "title": "Provinciaal domein Puyenbroeck, Sporthal Cafetaria",
+    "description": "9185 Lochristi",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/4-b1nD5lr-deYhOmt9tFlwVEaUs/xgkhog../20250820_151212.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00505-provinciaal-domein-puyenbroeck/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00506-de-brielschuurfood-&-drinkszaalminigolf/",
+    "key": "00506-de-brielschuurfood-&-drinkszaalminigolf",
+    "id": "00506",
+    "slug": "de-brielschuurfood-&-drinkszaalminigolf",
+    "title": "De Brielschuur-food & drinks-zaal-minigolf",
+    "description": "9800 Deinze",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/jMAULLtAfLWQq_FuSOhdc0MR5cw/omxjVQ../20250830_154848.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00506-de-brielschuurfood-&-drinkszaalminigolf/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00509-two-oh-five/",
+    "key": "00509-two-oh-five",
+    "id": "00509",
+    "slug": "two-oh-five",
+    "title": "Two Oh Five",
+    "description": "3630 Maasmechelen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/U8Zdrxfd3DLmlEXpLuZEBBpdunU/kbRHcA../IMG-20250911-WA0030.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00509-two-oh-five/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00510-le-petit-belge/",
+    "key": "00510-le-petit-belge",
+    "id": "00510",
+    "slug": "le-petit-belge",
+    "title": "Le Petit Belge",
+    "description": "3630 Maasmechelen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/NfKx5ecderurBXtSLF3JQjvlTIM/cTtfbQ../IMG-20250911-WA0013.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00510-le-petit-belge/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00511-puccini/",
+    "key": "00511-puccini",
+    "id": "00511",
+    "slug": "puccini",
+    "title": "Puccini",
+    "description": "3630 Maasmechelen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/7Jw8SHD7cWAxsAMj1zyHgbRm_SQ/VgyjBQ../Afbeelding+van+WhatsApp+op+2025-09-12+om+13.29.43_880d6e76.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00511-puccini/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00513-sensum/",
+    "key": "00513-sensum",
+    "id": "00513",
+    "slug": "sensum",
+    "title": "Sensum",
+    "description": "9051 Gent",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/rY0nl09jiu_OHxJXjIWbvius00Y/ikhvMg../WhatsApp+Image+2025-10-28+at+12.58.41.jpeg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00513-sensum/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00606-dienstencentrum-het-schoppeke/",
+    "key": "00606-dienstencentrum-het-schoppeke",
+    "id": "00606",
+    "slug": "dienstencentrum-het-schoppeke",
+    "title": "Dienstencentrum Het Schoppeke",
+    "description": "2500 Lier",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/IoN-H_GEtoaSWenh9ilCXaO9F9c/DDi2iw../foto+buitenzijde+gebouw.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00606-dienstencentrum-het-schoppeke/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00614-t-hommelhof/",
+    "key": "00614-t-hommelhof",
+    "id": "00614",
+    "slug": "t-hommelhof",
+    "title": "'t Hommelhof",
+    "description": "8978 Poperinge",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/7VSu6_IQL52lIhjAnfd5LYkcHys/6bj3qQ../20260122_141930.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00614-t-hommelhof/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00616-in-de-vrede/",
+    "key": "00616-in-de-vrede",
+    "id": "00616",
+    "slug": "in-de-vrede",
+    "title": "In de Vrede",
+    "description": "8640 Vleteren",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/nYZk2TsrayICH90InbZa_oTnbxo/4siHIw../20260122_152711.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00616-in-de-vrede/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00617-odnar/",
+    "key": "00617-odnar",
+    "id": "00617",
+    "slug": "odnar",
+    "title": "ODNAR",
+    "description": "9700 Oudenaarde",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/63M4PIhXPHY15XnatbQT_82Erwc/l-Awwg../20260116_111531.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00617-odnar/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00623-brewery-het-anker/",
+    "key": "00623-brewery-het-anker",
+    "id": "00623",
+    "slug": "brewery-het-anker",
+    "title": "Brewery Het Anker",
+    "description": "2800 Mechelen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/0DFZzJIeFMW_nbtlEQOWtXnZbUU/1r3V8w../20260130_130429.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00623-brewery-het-anker/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00630-dok-brewing-company/",
+    "key": "00630-dok-brewing-company",
+    "id": "00630",
+    "slug": "dok-brewing-company",
+    "title": "Dok Brewing Company",
+    "description": "9000 Gent",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/LF547VWxRua2jFBicRSjWuz-S7g/ndMbng../20260210_124358.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00630-dok-brewing-company/"
+  },
+  {
+    "url": "https://iedereen.overal.info/locaties/00743-antwerpse-brouw-compagnie,-brouwerij-&-taproom/",
+    "key": "00743-antwerpse-brouw-compagnie,-brouwerij-&-taproom",
+    "id": "00743",
+    "slug": "antwerpse-brouw-compagnie,-brouwerij-&-taproom",
+    "title": "Antwerpse Brouw Compagnie, Brouwerij & Taproom",
+    "description": "2000 Antwerpen",
+    "image": "https://xcli-wrwg-eljt.f2.xano.io/vault/N3fW9eOy/Y3QUwDVKdZHQ0xpH4atw_kY_jWo/uhVN7A../20260123_113032.jpg?tpl=big",
+    "canonical": "https://iedereen.overal.info/locaties/00743-antwerpse-brouw-compagnie,-brouwerij-&-taproom/"
+  }
+]

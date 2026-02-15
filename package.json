@@ -1,0 +1,14 @@
+{
+  "name": "iedereenoveral-static-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "extract": "node scripts/extract.mjs",
+    "build": "node scripts/build.mjs",
+    "serve": "npx http-server dist -p 5174 -c-1"
+  },
+  "dependencies": {
+    "p-limit": "^7.3.0",
+    "playwright": "^1.58.2"
+  }
+}
