@@ -1,8 +1,8 @@
 /**
- * Build a purely static, agent-traversible index site:
- * - static pagination /page/N/
- * - cards link directly to original IedereenOveral pages
- * - images loaded from extracted absolute URLs
+ * Build a file-server-friendly static index:
+ * - FLAT files (no directories): index.html, page-2.html, page-3.html, ...
+ * - RELATIVE links everywhere (./style.css etc) so it works under any base path
+ * - Cards link directly to original IedereenOveral pages
  *
  * Run:
  *   node scripts/build.mjs
@@ -11,7 +11,6 @@
  *   DATA=data/buildings.json
  *   DIST=dist
  *   PAGE_SIZE=100
- *   BASE_URL=https://your.domain.example
  */
 
 import fs from "node:fs/promises";
@@ -21,7 +20,6 @@ const CFG = {
   dataPath: process.env.DATA || "data/buildings.json",
   dist: process.env.DIST || "dist",
   pageSize: Number(process.env.PAGE_SIZE || "100"),
-  baseUrl: process.env.BASE_URL || "https://YOUR-DOMAIN-HERE.example",
 };
 
 function escapeHtml(s) {
@@ -45,18 +43,19 @@ function chunk(arr, size) {
 }
 
 function layout({ title, body }) {
+  // NOTE: relative stylesheet path
   return `<!doctype html>
 <html lang="nl">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>${escapeHtml(title)}</title>
-  <link rel="stylesheet" href="/assets/style.css" />
+  <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
   <header class="wrap">
     <div class="brand">
-      <a href="/" class="brand__link">IedereenOveral — Static demonstrator</a>
+      <a href="./index.html" class="brand__link">IedereenOveral — Static index</a>
       <div class="brand__sub">Pure static listing with persistent links to the original pages.</div>
     </div>
   </header>
@@ -74,17 +73,30 @@ function layout({ title, body }) {
 </html>`;
 }
 
+function pageFilename(pageIndex) {
+  // pageIndex is 0-based
+  return pageIndex === 0 ? "index.html" : `page-${pageIndex + 1}.html`;
+}
+
 function pager({ pageIndex, pageCount }) {
-  const prev = pageIndex > 0 ? (pageIndex === 1 ? "/" : `/page/${pageIndex}/`) : null;
-  const next = pageIndex < pageCount - 1 ? `/page/${pageIndex + 2}/` : null;
+  const prevFile = pageIndex > 0 ? pageFilename(pageIndex - 1) : null;
+  const nextFile = pageIndex < pageCount - 1 ? pageFilename(pageIndex + 1) : null;
 
   return `<nav class="pager" aria-label="Pagination">
     <div class="pager__left">
-      ${prev ? `<a class="btn" href="${prev}">← Previous</a>` : `<span class="btn btn--disabled">← Previous</span>`}
+      ${
+        prevFile
+          ? `<a class="btn" href="./${prevFile}">← Previous</a>`
+          : `<span class="btn btn--disabled">← Previous</span>`
+      }
     </div>
     <div class="pager__mid">Page ${pageIndex + 1} / ${pageCount}</div>
     <div class="pager__right">
-      ${next ? `<a class="btn" href="${next}">Next →</a>` : `<span class="btn btn--disabled">Next →</span>`}
+      ${
+        nextFile
+          ? `<a class="btn" href="./${nextFile}">Next →</a>`
+          : `<span class="btn btn--disabled">Next →</span>`
+      }
     </div>
   </nav>`;
 }
@@ -95,7 +107,9 @@ function card(b) {
   const imgSrc = b.image && /^https?:\/\//i.test(b.image) ? b.image : null;
 
   const img = imgSrc
-    ? `<img class="card__img" src="${escapeHtml(imgSrc)}" alt="${escapeHtml(title)}" loading="lazy" referrerpolicy="no-referrer" />`
+    ? `<img class="card__img" src="${escapeHtml(imgSrc)}" alt="${escapeHtml(
+        title
+      )}" loading="lazy" referrerpolicy="no-referrer" />`
     : "";
 
   return `<article class="card">
@@ -116,12 +130,10 @@ async function main() {
 
   await fs.rm(CFG.dist, { recursive: true, force: true });
   await ensureDir(CFG.dist);
-  await ensureDir(path.join(CFG.dist, "assets"));
-  await ensureDir(path.join(CFG.dist, "page"));
 
-  // CSS
+  // CSS in root (referenced as ./style.css everywhere)
   await fs.writeFile(
-    path.join(CFG.dist, "assets/style.css"),
+    path.join(CFG.dist, "style.css"),
     `
 :root { color-scheme: light; }
 body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.45; }
@@ -147,7 +159,7 @@ body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial
     "utf8"
   );
 
-  // Machine-readable exports
+  // Machine-readable exports in root (relative links)
   await fs.writeFile(path.join(CFG.dist, "buildings.json"), JSON.stringify(buildings, null, 2), "utf8");
   await fs.writeFile(
     path.join(CFG.dist, "buildings.ndjson"),
@@ -155,7 +167,7 @@ body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial
     "utf8"
   );
 
-  // Paginated pages
+  // Paginated pages (flat)
   const pages = chunk(buildings, CFG.pageSize);
   const pageCount = pages.length;
 
@@ -166,7 +178,7 @@ body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial
       <h1>Locaties</h1>
       <p class="hint">
         Total: ${buildings.length}. Clicking a card opens the original persistent URL.
-        Machine exports: <a href="/buildings.json">buildings.json</a>, <a href="/buildings.ndjson">buildings.ndjson</a>.
+        Exports: <a href="./buildings.json">buildings.json</a>, <a href="./buildings.ndjson">buildings.ndjson</a>.
       </p>
       ${pager({ pageIndex: i, pageCount })}
       <section class="grid">
@@ -176,38 +188,14 @@ body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial
     `;
 
     const html = layout({ title: `Locaties — page ${i + 1}`, body });
+    const file = pageFilename(i);
 
-    if (i === 0) {
-      await fs.writeFile(path.join(CFG.dist, "index.html"), html, "utf8");
-    } else {
-      const dir = path.join(CFG.dist, "page", String(i + 1));
-      await ensureDir(dir);
-      await fs.writeFile(path.join(dir, "index.html"), html, "utf8");
-    }
+    await fs.writeFile(path.join(CFG.dist, file), html, "utf8");
   }
 
-  // sitemap + robots (only internal pages; entries link out)
-  const urls = [];
-  urls.push(`${CFG.baseUrl}/`);
-  for (let i = 2; i <= pageCount; i++) urls.push(`${CFG.baseUrl}/page/${i}/`);
-  urls.push(`${CFG.baseUrl}/buildings.json`);
-  urls.push(`${CFG.baseUrl}/buildings.ndjson`);
-
-  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urls.map((u) => `  <url><loc>${u}</loc></url>`).join("\n")}
-</urlset>
-`;
-  await fs.writeFile(path.join(CFG.dist, "sitemap.xml"), sitemap, "utf8");
-
-  await fs.writeFile(
-    path.join(CFG.dist, "robots.txt"),
-    `User-agent: *\nAllow: /\nSitemap: ${CFG.baseUrl}/sitemap.xml\n`,
-    "utf8"
-  );
-
   console.log(`Built static site in ./${CFG.dist}`);
-  console.log(`Pages: ${pageCount}, Buildings: ${buildings.length}`);
+  console.log(`Files: ${pageCount} HTML pages + style.css + buildings.json + buildings.ndjson`);
+  console.log(`Open: ${path.join(CFG.dist, "index.html")}`);
 }
 
 main().catch((err) => {
