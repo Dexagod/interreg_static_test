@@ -1,8 +1,16 @@
 /**
  * Build a file-server-friendly static index:
- * - FLAT files (no directories): index.html, page-2.html, page-3.html, ...
- * - RELATIVE links everywhere (./style.css etc) so it works under any base path
- * - Cards link directly to original IedereenOveral pages
+ * - FLAT files: index.html, page-2.html, ...
+ * - RELATIVE links everywhere (./style.css, ./page-2.html)
+ * - Cards link to original IedereenOveral pages
+ *
+ * Machine-friendly exports (avoid huge single JSON parsing):
+ * - catalog.json (small "start here" index)
+ * - page-1.json, page-2.json, ... (paged arrays)
+ * - record-<key>.json (one record per location)
+ * - buildings.json (full pretty JSON)
+ * - buildings.jsonl (+ .txt copy) (line-delimited)
+ * - llms.txt (guidance for LLM agents)
  *
  * Run:
  *   node scripts/build.mjs
@@ -42,8 +50,28 @@ function chunk(arr, size) {
   return out;
 }
 
+function pageFilename(pageIndex) {
+  return pageIndex === 0 ? "index.html" : `page-${pageIndex + 1}.html`;
+}
+function pageJsonFilename(pageIndex) {
+  return `page-${pageIndex + 1}.json`;
+}
+
+function safeKeyForFile(key) {
+  // keep it flat and safe for file servers
+  return String(key || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9-]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 120);
+}
+
+function recordFilename(b) {
+  const k = safeKeyForFile(b.key || `${b.id || ""}-${b.slug || ""}` || "record");
+  return `record-${k || "record"}.json`;
+}
+
 function layout({ title, body }) {
-  // NOTE: relative stylesheet path
   return `<!doctype html>
 <html lang="nl">
 <head>
@@ -56,7 +84,7 @@ function layout({ title, body }) {
   <header class="wrap">
     <div class="brand">
       <a href="./index.html" class="brand__link">IedereenOveral — Static index</a>
-      <div class="brand__sub">Pure static listing with persistent links to the original pages.</div>
+      <div class="brand__sub">JS-free index with persistent links to the original pages.</div>
     </div>
   </header>
   <main class="wrap">
@@ -66,16 +94,11 @@ function layout({ title, body }) {
     <div>
       Source of truth remains
       <a href="https://iedereen.overal.info/" rel="noopener noreferrer">iedereen.overal.info</a>.
-      This site only republishes a traversible index.
+      This site republishes a traversible index only.
     </div>
   </footer>
 </body>
 </html>`;
-}
-
-function pageFilename(pageIndex) {
-  // pageIndex is 0-based
-  return pageIndex === 0 ? "index.html" : `page-${pageIndex + 1}.html`;
 }
 
 function pager({ pageIndex, pageCount }) {
@@ -106,19 +129,26 @@ function card(b) {
   const desc = b.description ? escapeHtml(b.description) : "";
   const imgSrc = b.image && /^https?:\/\//i.test(b.image) ? b.image : null;
 
+  const recFile = recordFilename(b);
+
   const img = imgSrc
     ? `<img class="card__img" src="${escapeHtml(imgSrc)}" alt="${escapeHtml(
         title
       )}" loading="lazy" referrerpolicy="no-referrer" />`
     : "";
 
+  // Small “JSON” link for agents (still clean for humans)
   return `<article class="card">
     <a class="card__inner" href="${escapeHtml(b.url)}" rel="noopener noreferrer">
       ${img}
       <div class="card__body">
         <h2 class="card__title">${escapeHtml(title)}</h2>
         ${desc ? `<p class="card__desc">${desc}</p>` : ""}
-        <div class="card__meta">${escapeHtml(b.url)}</div>
+        <div class="card__meta">
+          <span>${escapeHtml(b.url)}</span>
+          <span class="sep">·</span>
+          <a class="metaLink" href="./${escapeHtml(recFile)}">json</a>
+        </div>
       </div>
     </a>
   </article>`;
@@ -131,7 +161,7 @@ async function main() {
   await fs.rm(CFG.dist, { recursive: true, force: true });
   await ensureDir(CFG.dist);
 
-  // CSS in root (referenced as ./style.css everywhere)
+  // CSS
   await fs.writeFile(
     path.join(CFG.dist, "style.css"),
     `
@@ -147,7 +177,9 @@ body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial
 .card__body { padding: 12px; }
 .card__title { margin: 0 0 6px; font-size: 1.05rem; }
 .card__desc { margin: 0 0 8px; color: #333; font-size: 0.95rem; }
-.card__meta { color: #666; font-size: 0.78rem; word-break: break-all; }
+.card__meta { color: #666; font-size: 0.78rem; word-break: break-all; display: flex; gap: 8px; flex-wrap: wrap; }
+.sep { opacity: 0.6; }
+.metaLink { color: inherit; text-decoration: underline; }
 .pager { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 8px; margin: 16px 0; }
 .pager__left { justify-self: start; }
 .pager__right { justify-self: end; }
@@ -159,26 +191,52 @@ body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial
     "utf8"
   );
 
-  // Machine-readable exports in root (relative links)
+  // Full exports (pretty)
   await fs.writeFile(path.join(CFG.dist, "buildings.json"), JSON.stringify(buildings, null, 2), "utf8");
-  await fs.writeFile(
-    path.join(CFG.dist, "buildings.ndjson"),
-    buildings.map((b) => JSON.stringify(b)).join("\n") + "\n",
-    "utf8"
-  );
 
-  // Paginated pages (flat)
+  // JSONL (some tools prefer this). Also write a .txt copy for servers that mislabel ndjson/jsonl.
+  const jsonl = buildings.map((b) => JSON.stringify(b)).join("\n") + "\n";
+  await fs.writeFile(path.join(CFG.dist, "buildings.jsonl"), jsonl, "utf8");
+  await fs.writeFile(path.join(CFG.dist, "buildings.jsonl.txt"), jsonl, "utf8");
+
+  // Per-record JSON files (best for agents)
+  const catalog = [];
+  for (const b of buildings) {
+    const rec = {
+      ...b,
+      // make intent explicit
+      note: "This record is an index entry. For more detail, follow `url` (original page).",
+    };
+    const fn = recordFilename(b);
+    await fs.writeFile(path.join(CFG.dist, fn), JSON.stringify(rec, null, 2), "utf8");
+
+    catalog.push({
+      key: b.key || null,
+      title: b.title || null,
+      url: b.url,               // original page
+      record: `./${fn}`,        // local JSON for this entry
+    });
+  }
+  await fs.writeFile(path.join(CFG.dist, "catalog.json"), JSON.stringify(catalog, null, 2), "utf8");
+
+  // Paginated HTML + paginated JSON (agents can fetch smaller arrays)
   const pages = chunk(buildings, CFG.pageSize);
   const pageCount = pages.length;
 
   for (let i = 0; i < pageCount; i++) {
     const items = pages[i];
+    const pageJson = items.map((b) => ({
+      ...b,
+      record: `./${recordFilename(b)}`,
+    }));
+    await fs.writeFile(path.join(CFG.dist, pageJsonFilename(i)), JSON.stringify(pageJson, null, 2), "utf8");
 
     const body = `
       <h1>Locaties</h1>
       <p class="hint">
         Total: ${buildings.length}. Clicking a card opens the original persistent URL.
-        Exports: <a href="./buildings.json">buildings.json</a>, <a href="./buildings.ndjson">buildings.ndjson</a>.
+        Machine starts: <a href="./catalog.json">catalog.json</a>, per-page: <a href="./${pageJsonFilename(i)}">${pageJsonFilename(i)}</a>.
+        Full: <a href="./buildings.json">buildings.json</a> (large), <a href="./buildings.jsonl">buildings.jsonl</a>.
       </p>
       ${pager({ pageIndex: i, pageCount })}
       <section class="grid">
@@ -186,16 +244,42 @@ body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial
       </section>
       ${pager({ pageIndex: i, pageCount })}
     `;
-
     const html = layout({ title: `Locaties — page ${i + 1}`, body });
-    const file = pageFilename(i);
-
-    await fs.writeFile(path.join(CFG.dist, file), html, "utf8");
+    await fs.writeFile(path.join(CFG.dist, pageFilename(i)), html, "utf8");
   }
 
+  // llms.txt (explicitly tells agents how to use the site)
+  const llmsTxt = `# IedereenOveral — Static index
+
+This site is a JS-free, static INDEX of locations from https://iedereen.overal.info/.
+It is designed to be easy for agents to traverse.
+
+## What you can get here (this static site)
+Each location record includes:
+- \`title\`
+- \`description\` (often a short locality/address line from the listing)
+- \`image\` (listing preview thumbnail when available)
+- \`url\` (the ORIGINAL persistent location page on iedereen.overal.info)
+
+## Start here (small and reliable)
+- \`./catalog.json\` — list of all locations with pointers to per-record JSON files
+
+## Per-location (recommended)
+- \`./record-<key>.json\` — a single location record (small, easy to parse)
+- Each record has \`url\` which is the original persistent page.
+
+## Paged exports
+- \`./page-1.json\`, \`./page-2.json\`, ... — same data in pages (mirrors HTML pagination)
+
+## Notes
+This static index does NOT necessarily contain detailed accessibility measurements/fields.
+If you need details not present in the record, follow \`url\` to the original page.
+`;
+  await fs.writeFile(path.join(CFG.dist, "llms.txt"), llmsTxt, "utf8");
+
   console.log(`Built static site in ./${CFG.dist}`);
-  console.log(`Files: ${pageCount} HTML pages + style.css + buildings.json + buildings.ndjson`);
-  console.log(`Open: ${path.join(CFG.dist, "index.html")}`);
+  console.log(`HTML pages: ${pageCount} (flat files)`);
+  console.log(`Machine: catalog.json, page-N.json, record-*.json, llms.txt`);
 }
 
 main().catch((err) => {
