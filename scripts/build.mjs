@@ -1,16 +1,15 @@
 /**
- * Build a file-server-friendly static index:
- * - FLAT files: index.html, page-2.html, ...
- * - RELATIVE links everywhere (./style.css, ./page-2.html)
+ * Build a file-server / Solid-Pod friendly static index:
+ * - FLAT files: index.html, page-2.html, page-3.html, ...
+ * - RELATIVE links everywhere (./style.css etc)
  * - Cards link to original IedereenOveral pages
  *
- * Machine-friendly exports:
- * - llms.txt (guidance for agents)  <-- now linked from HTML head + body
- * - catalog.json (small "start here" index)
- * - page-1.json, page-2.json, ... (paged arrays)
- * - record-<key>.json (one record per location)
- * - buildings.json (full pretty JSON)
- * - buildings.jsonl (+ .txt copy)
+ * Agent guidance:
+ * - llms.txt (linked in HTML head + footer)
+ * - locations.tsv (title<TAB>url) small + fast; avoids "dataset trap"
+ *
+ * Optional (OFF by default):
+ * - buildings.json, buildings.jsonl (only if EXPORT_JSON=true)
  *
  * Run:
  *   node scripts/build.mjs
@@ -19,6 +18,7 @@
  *   DATA=data/buildings.json
  *   DIST=dist
  *   PAGE_SIZE=100
+ *   EXPORT_JSON=false|true   (default false)
  */
 
 import fs from "node:fs/promises";
@@ -28,6 +28,7 @@ const CFG = {
   dataPath: process.env.DATA || "data/buildings.json",
   dist: process.env.DIST || "dist",
   pageSize: Number(process.env.PAGE_SIZE || "100"),
+  exportJson: String(process.env.EXPORT_JSON || "false").toLowerCase() === "true",
 };
 
 function escapeHtml(s) {
@@ -53,25 +54,8 @@ function chunk(arr, size) {
 function pageFilename(pageIndex) {
   return pageIndex === 0 ? "index.html" : `page-${pageIndex + 1}.html`;
 }
-function pageJsonFilename(pageIndex) {
-  return `page-${pageIndex + 1}.json`;
-}
-
-function safeKeyForFile(key) {
-  return String(key || "")
-    .toLowerCase()
-    .replace(/[^a-z0-9-]+/g, "-")
-    .replace(/^-+|-+$/g, "")
-    .slice(0, 120);
-}
-
-function recordFilename(b) {
-  const k = safeKeyForFile(b.key || `${b.id || ""}-${b.slug || ""}` || "record");
-  return `record-${k || "record"}.json`;
-}
 
 function layout({ title, body }) {
-  // ✅ llms.txt is discoverable in HTML head (and also linked in body below)
   return `<!doctype html>
 <html lang="nl">
 <head>
@@ -93,9 +77,8 @@ function layout({ title, body }) {
   </main>
   <footer class="wrap footer">
     <div>
-      Agent guide: <a href="./llms.txt">llms.txt</a> ·
-      Source of truth:
-      <a href="https://iedereen.overal.info/" rel="noopener noreferrer">iedereen.overal.info</a>.
+      Agent guide: <a href="./llms.txt">llms.txt</a> · Quick map: <a href="./locations.tsv">locations.tsv</a> ·
+      Source of truth: <a href="https://iedereen.overal.info/" rel="noopener noreferrer">iedereen.overal.info</a>
     </div>
   </footer>
 </body>
@@ -130,8 +113,6 @@ function card(b) {
   const desc = b.description ? escapeHtml(b.description) : "";
   const imgSrc = b.image && /^https?:\/\//i.test(b.image) ? b.image : null;
 
-  const recFile = recordFilename(b);
-
   const img = imgSrc
     ? `<img class="card__img" src="${escapeHtml(imgSrc)}" alt="${escapeHtml(
         title
@@ -144,14 +125,15 @@ function card(b) {
       <div class="card__body">
         <h2 class="card__title">${escapeHtml(title)}</h2>
         ${desc ? `<p class="card__desc">${desc}</p>` : ""}
-        <div class="card__meta">
-          <span>${escapeHtml(b.url)}</span>
-          <span class="sep">·</span>
-          <a class="metaLink" href="./${escapeHtml(recFile)}">json</a>
-        </div>
+        <div class="card__meta">${escapeHtml(b.url)}</div>
       </div>
     </a>
   </article>`;
+}
+
+function tsvEscape(s) {
+  // keep it simple: replace tabs/newlines
+  return String(s ?? "").replace(/\t/g, " ").replace(/\r?\n/g, " ").trim();
 }
 
 async function main() {
@@ -177,9 +159,7 @@ body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial
 .card__body { padding: 12px; }
 .card__title { margin: 0 0 6px; font-size: 1.05rem; }
 .card__desc { margin: 0 0 8px; color: #333; font-size: 0.95rem; }
-.card__meta { color: #666; font-size: 0.78rem; word-break: break-all; display: flex; gap: 8px; flex-wrap: wrap; }
-.sep { opacity: 0.6; }
-.metaLink { color: inherit; text-decoration: underline; }
+.card__meta { color: #666; font-size: 0.78rem; word-break: break-all; }
 .pager { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 8px; margin: 16px 0; }
 .pager__left { justify-self: start; }
 .pager__right { justify-self: end; }
@@ -191,54 +171,57 @@ body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial
     "utf8"
   );
 
-  // Full exports
-  await fs.writeFile(path.join(CFG.dist, "buildings.json"), JSON.stringify(buildings, null, 2), "utf8");
+  // llms.txt (explicitly tells agents not to waste time on exports)
+  const llmsTxt = `# IedereenOveral — Static index
 
-  const jsonl = buildings.map((b) => JSON.stringify(b)).join("\n") + "\n";
-  await fs.writeFile(path.join(CFG.dist, "buildings.jsonl"), jsonl, "utf8");
-  await fs.writeFile(path.join(CFG.dist, "buildings.jsonl.txt"), jsonl, "utf8");
+This site is a JS-free INDEX of locations from https://iedereen.overal.info/.
 
-  // Per-record JSON + catalog
-  const catalog = [];
-  for (const b of buildings) {
-    const rec = {
-      ...b,
-      note: "This record is an index entry. For more detail, follow `url` (original page).",
-    };
-    const fn = recordFilename(b);
-    await fs.writeFile(path.join(CFG.dist, fn), JSON.stringify(rec, null, 2), "utf8");
+## Intended agent behavior
+1) Search/filter by location name using the HTML pages (or locations.tsv).
+2) Open only the relevant original pages via the \`url\` links.
+3) Extract detailed accessibility observations from the original pages.
 
-    catalog.push({
-      key: b.key || null,
-      title: b.title || null,
-      url: b.url,
-      record: `./${fn}`,
-    });
+## What is stored here
+Only basic listing info:
+- title
+- description (often locality/address line)
+- image (listing preview thumbnail if available)
+- url (the ORIGINAL persistent location page)
+
+This index does NOT aim to contain full accessibility measurements/fields.
+If you need detailed fields (e.g., wheelchair toilet, door widths), follow \`url\`.
+`;
+  await fs.writeFile(path.join(CFG.dist, "llms.txt"), llmsTxt, "utf8");
+
+  // locations.tsv (tiny, fast, hard to misinterpret as “full dataset”)
+  // Format: title<TAB>url
+  const tsvLines = [
+    "title\turl",
+    ...buildings.map((b) => `${tsvEscape(b.title || b.key || "")}\t${tsvEscape(b.url || "")}`),
+  ];
+  await fs.writeFile(path.join(CFG.dist, "locations.tsv"), tsvLines.join("\n") + "\n", "utf8");
+
+  // Optional exports (OFF by default)
+  if (CFG.exportJson) {
+    await fs.writeFile(path.join(CFG.dist, "buildings.json"), JSON.stringify(buildings, null, 2), "utf8");
+    const jsonl = buildings.map((b) => JSON.stringify(b)).join("\n") + "\n";
+    await fs.writeFile(path.join(CFG.dist, "buildings.jsonl"), jsonl, "utf8");
+    await fs.writeFile(path.join(CFG.dist, "buildings.jsonl.txt"), jsonl, "utf8");
   }
-  await fs.writeFile(path.join(CFG.dist, "catalog.json"), JSON.stringify(catalog, null, 2), "utf8");
 
-  // HTML + paged JSON
+  // HTML pages
   const pages = chunk(buildings, CFG.pageSize);
   const pageCount = pages.length;
 
   for (let i = 0; i < pageCount; i++) {
     const items = pages[i];
 
-    const pageJson = items.map((b) => ({
-      ...b,
-      record: `./${recordFilename(b)}`,
-    }));
-    await fs.writeFile(path.join(CFG.dist, pageJsonFilename(i)), JSON.stringify(pageJson, null, 2), "utf8");
-
-    // ✅ also link llms.txt in the visible hint
     const body = `
       <h1>Locaties</h1>
       <p class="hint">
         Total: ${buildings.length}. Clicking a card opens the original persistent URL.
-        Agent guide: <a href="./llms.txt">llms.txt</a>.
-        Machine starts: <a href="./catalog.json">catalog.json</a>.
-        Per-page: <a href="./${pageJsonFilename(i)}">${pageJsonFilename(i)}</a>.
-        Full: <a href="./buildings.json">buildings.json</a> (large), <a href="./buildings.jsonl">buildings.jsonl</a>.
+        Agent guide: <a href="./llms.txt">llms.txt</a> · Quick map: <a href="./locations.tsv">locations.tsv</a>
+        ${CFG.exportJson ? `· (exports enabled)` : ``}
       </p>
       ${pager({ pageIndex: i, pageCount })}
       <section class="grid">
@@ -251,38 +234,10 @@ body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial
     await fs.writeFile(path.join(CFG.dist, pageFilename(i)), html, "utf8");
   }
 
-  // llms.txt (root, relative hosting friendly)
-  const llmsTxt = `# IedereenOveral — Static index
-
-This site is a JS-free, static INDEX of locations from https://iedereen.overal.info/.
-It is designed to be easy for agents to traverse.
-
-## What you can get here
-Each location record includes:
-- title
-- description (often a short locality/address line from the listing)
-- image (listing preview thumbnail when available)
-- url (the ORIGINAL persistent location page on iedereen.overal.info)
-
-## Start here (small and reliable)
-- ./catalog.json — list of all locations with pointers to per-record JSON files
-
-## Per-location (recommended)
-- ./record-<key>.json — a single location record (small, easy to parse)
-- Each record has url which is the original persistent page.
-
-## Paged exports
-- ./page-1.json, ./page-2.json, ... — same data in pages (mirrors HTML pagination)
-
-## Notes
-This static index does NOT necessarily contain detailed accessibility measurements/fields.
-If you need details not present in the record, follow url to the original page.
-`;
-  await fs.writeFile(path.join(CFG.dist, "llms.txt"), llmsTxt, "utf8");
-
   console.log(`Built static site in ./${CFG.dist}`);
   console.log(`HTML pages: ${pageCount} (flat files)`);
-  console.log(`Machine: llms.txt, catalog.json, page-N.json, record-*.json`);
+  console.log(`Agent files: llms.txt, locations.tsv`);
+  console.log(`JSON exports: ${CFG.exportJson ? "ON" : "OFF"}`);
 }
 
 main().catch((err) => {
