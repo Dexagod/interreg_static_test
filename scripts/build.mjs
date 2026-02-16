@@ -4,13 +4,13 @@
  * - RELATIVE links everywhere (./style.css, ./page-2.html)
  * - Cards link to original IedereenOveral pages
  *
- * Machine-friendly exports (avoid huge single JSON parsing):
+ * Machine-friendly exports:
+ * - llms.txt (guidance for agents)  <-- now linked from HTML head + body
  * - catalog.json (small "start here" index)
  * - page-1.json, page-2.json, ... (paged arrays)
  * - record-<key>.json (one record per location)
  * - buildings.json (full pretty JSON)
- * - buildings.jsonl (+ .txt copy) (line-delimited)
- * - llms.txt (guidance for LLM agents)
+ * - buildings.jsonl (+ .txt copy)
  *
  * Run:
  *   node scripts/build.mjs
@@ -58,7 +58,6 @@ function pageJsonFilename(pageIndex) {
 }
 
 function safeKeyForFile(key) {
-  // keep it flat and safe for file servers
   return String(key || "")
     .toLowerCase()
     .replace(/[^a-z0-9-]+/g, "-")
@@ -72,6 +71,7 @@ function recordFilename(b) {
 }
 
 function layout({ title, body }) {
+  // ✅ llms.txt is discoverable in HTML head (and also linked in body below)
   return `<!doctype html>
 <html lang="nl">
 <head>
@@ -79,6 +79,7 @@ function layout({ title, body }) {
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>${escapeHtml(title)}</title>
   <link rel="stylesheet" href="./style.css" />
+  <link rel="alternate" type="text/plain" href="./llms.txt" title="LLM instructions" />
 </head>
 <body>
   <header class="wrap">
@@ -92,9 +93,9 @@ function layout({ title, body }) {
   </main>
   <footer class="wrap footer">
     <div>
-      Source of truth remains
+      Agent guide: <a href="./llms.txt">llms.txt</a> ·
+      Source of truth:
       <a href="https://iedereen.overal.info/" rel="noopener noreferrer">iedereen.overal.info</a>.
-      This site republishes a traversible index only.
     </div>
   </footer>
 </body>
@@ -137,7 +138,6 @@ function card(b) {
       )}" loading="lazy" referrerpolicy="no-referrer" />`
     : "";
 
-  // Small “JSON” link for agents (still clean for humans)
   return `<article class="card">
     <a class="card__inner" href="${escapeHtml(b.url)}" rel="noopener noreferrer">
       ${img}
@@ -191,20 +191,18 @@ body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial
     "utf8"
   );
 
-  // Full exports (pretty)
+  // Full exports
   await fs.writeFile(path.join(CFG.dist, "buildings.json"), JSON.stringify(buildings, null, 2), "utf8");
 
-  // JSONL (some tools prefer this). Also write a .txt copy for servers that mislabel ndjson/jsonl.
   const jsonl = buildings.map((b) => JSON.stringify(b)).join("\n") + "\n";
   await fs.writeFile(path.join(CFG.dist, "buildings.jsonl"), jsonl, "utf8");
   await fs.writeFile(path.join(CFG.dist, "buildings.jsonl.txt"), jsonl, "utf8");
 
-  // Per-record JSON files (best for agents)
+  // Per-record JSON + catalog
   const catalog = [];
   for (const b of buildings) {
     const rec = {
       ...b,
-      // make intent explicit
       note: "This record is an index entry. For more detail, follow `url` (original page).",
     };
     const fn = recordFilename(b);
@@ -213,29 +211,33 @@ body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial
     catalog.push({
       key: b.key || null,
       title: b.title || null,
-      url: b.url,               // original page
-      record: `./${fn}`,        // local JSON for this entry
+      url: b.url,
+      record: `./${fn}`,
     });
   }
   await fs.writeFile(path.join(CFG.dist, "catalog.json"), JSON.stringify(catalog, null, 2), "utf8");
 
-  // Paginated HTML + paginated JSON (agents can fetch smaller arrays)
+  // HTML + paged JSON
   const pages = chunk(buildings, CFG.pageSize);
   const pageCount = pages.length;
 
   for (let i = 0; i < pageCount; i++) {
     const items = pages[i];
+
     const pageJson = items.map((b) => ({
       ...b,
       record: `./${recordFilename(b)}`,
     }));
     await fs.writeFile(path.join(CFG.dist, pageJsonFilename(i)), JSON.stringify(pageJson, null, 2), "utf8");
 
+    // ✅ also link llms.txt in the visible hint
     const body = `
       <h1>Locaties</h1>
       <p class="hint">
         Total: ${buildings.length}. Clicking a card opens the original persistent URL.
-        Machine starts: <a href="./catalog.json">catalog.json</a>, per-page: <a href="./${pageJsonFilename(i)}">${pageJsonFilename(i)}</a>.
+        Agent guide: <a href="./llms.txt">llms.txt</a>.
+        Machine starts: <a href="./catalog.json">catalog.json</a>.
+        Per-page: <a href="./${pageJsonFilename(i)}">${pageJsonFilename(i)}</a>.
         Full: <a href="./buildings.json">buildings.json</a> (large), <a href="./buildings.jsonl">buildings.jsonl</a>.
       </p>
       ${pager({ pageIndex: i, pageCount })}
@@ -244,42 +246,43 @@ body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial
       </section>
       ${pager({ pageIndex: i, pageCount })}
     `;
+
     const html = layout({ title: `Locaties — page ${i + 1}`, body });
     await fs.writeFile(path.join(CFG.dist, pageFilename(i)), html, "utf8");
   }
 
-  // llms.txt (explicitly tells agents how to use the site)
+  // llms.txt (root, relative hosting friendly)
   const llmsTxt = `# IedereenOveral — Static index
 
 This site is a JS-free, static INDEX of locations from https://iedereen.overal.info/.
 It is designed to be easy for agents to traverse.
 
-## What you can get here (this static site)
+## What you can get here
 Each location record includes:
-- \`title\`
-- \`description\` (often a short locality/address line from the listing)
-- \`image\` (listing preview thumbnail when available)
-- \`url\` (the ORIGINAL persistent location page on iedereen.overal.info)
+- title
+- description (often a short locality/address line from the listing)
+- image (listing preview thumbnail when available)
+- url (the ORIGINAL persistent location page on iedereen.overal.info)
 
 ## Start here (small and reliable)
-- \`./catalog.json\` — list of all locations with pointers to per-record JSON files
+- ./catalog.json — list of all locations with pointers to per-record JSON files
 
 ## Per-location (recommended)
-- \`./record-<key>.json\` — a single location record (small, easy to parse)
-- Each record has \`url\` which is the original persistent page.
+- ./record-<key>.json — a single location record (small, easy to parse)
+- Each record has url which is the original persistent page.
 
 ## Paged exports
-- \`./page-1.json\`, \`./page-2.json\`, ... — same data in pages (mirrors HTML pagination)
+- ./page-1.json, ./page-2.json, ... — same data in pages (mirrors HTML pagination)
 
 ## Notes
 This static index does NOT necessarily contain detailed accessibility measurements/fields.
-If you need details not present in the record, follow \`url\` to the original page.
+If you need details not present in the record, follow url to the original page.
 `;
   await fs.writeFile(path.join(CFG.dist, "llms.txt"), llmsTxt, "utf8");
 
   console.log(`Built static site in ./${CFG.dist}`);
   console.log(`HTML pages: ${pageCount} (flat files)`);
-  console.log(`Machine: catalog.json, page-N.json, record-*.json, llms.txt`);
+  console.log(`Machine: llms.txt, catalog.json, page-N.json, record-*.json`);
 }
 
 main().catch((err) => {
